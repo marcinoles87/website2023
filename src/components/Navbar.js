@@ -7,10 +7,10 @@ function Navbar() {
   return (
     <nav className='navbar'>
       <div className='navbar-container'>
-        <Link to="/" className="navbar-logo"> Home</Link>
-        <Link to="/" className="navbar-logo"> Trips</Link>
-        <Link to="/" className="navbar-logo"> About</Link>
-        <Link to="/" className="navbar-logo"> Contact</Link>
+        <Link to="/" className="navbar-item"> Home</Link>
+        <Link to="/" className="navbar-item"> Trips</Link>
+        <Link to="/" className="navbar-item"> About</Link>
+        <Link to="/" className="navbar-item"> Contact</Link>
       </div>
     </nav>
     
