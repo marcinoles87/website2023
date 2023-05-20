@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import './navbar.css'
 
 function Navbar() {
-  const [click , setClick] = useState(false)
+  const [click , setClick] = useState(true)
 
   const handleClick = () =>  setClick(!click)
   
@@ -19,12 +19,17 @@ function Navbar() {
         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
       </div>
 
+      {click ? 
       <div className='navbar-container'>
         <Link to="/" className="navbar-item"> Home</Link>
         <Link to="/" className="navbar-item"> Trips</Link>
         <Link to="/" className="navbar-item"> About</Link>
         <Link to="/" className="navbar-item"> Contact</Link>
       </div>
+
+      : ""
+
+}
     </nav>
     
   )
