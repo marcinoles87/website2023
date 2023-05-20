@@ -6,6 +6,7 @@ import './navbar.css'
 function Navbar() {
   return (
     <nav className='navbar'>
+      <div className='navbar-logo'><i className='fab fa-typo3'/></div>
       <div className='navbar-container'>
         <Link to="/" className="navbar-item"> Home</Link>
         <Link to="/" className="navbar-item"> Trips</Link>
