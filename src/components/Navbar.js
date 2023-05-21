@@ -22,7 +22,7 @@ function Navbar() {
       {click ? 
       <div className='navbar-container'>
         <Link to="/" className="navbar-item"> Home</Link>
-        <Link to="/" className="navbar-item"> Trips</Link>
+        <Link to="/Header.js" className="navbar-item"> Trips</Link>
         <Link to="/" className="navbar-item"> About</Link>
         <Link to="/" className="navbar-item"> Contact</Link>
       </div>

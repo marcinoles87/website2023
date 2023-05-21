@@ -10,8 +10,10 @@ function App() {
     <Router>
       <Routes>
          <Route exact path='/' element={<Navbar></Navbar>} ></Route>
-         <Route exact path='/' element={<Header></Header>} ></Route>
+         <Route  path='/' element={<Header></Header>} ></Route>
       </Routes>
+
+
       </Router>
     </>
   );
