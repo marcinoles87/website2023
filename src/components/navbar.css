@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content:end;
     font-size: 40px;
     background-color: black;
     height: 100px;
@@ -11,6 +11,7 @@
 }
 
 .navbar-logo{
+    margin-right: 50vw;
     color:white;
 }
 
