@@ -1,5 +1,5 @@
 import React , {useState}from 'react'
-import {Link} from 'react-router-dom'
+import {Link , Outlet} from 'react-router-dom'
 
 import './navbar.css'
 
@@ -22,7 +22,7 @@ function Navbar() {
       {click ? 
       <div className='navbar-container'>
         <Link to="/" className="navbar-item"> Home</Link>
-        <Link to="/Header.js" className="navbar-item"> Trips</Link>
+        <Link to="/header" className="navbar-item"> Trips</Link>
         <Link to="/" className="navbar-item"> About</Link>
         <Link to="/" className="navbar-item"> Contact</Link>
       </div>
@@ -30,9 +30,14 @@ function Navbar() {
       : ""
 
 }
+
+<Outlet />
     </nav>
+
+    
     
   )
+  
 }
 
 export default Navbar

@@ -9,8 +9,9 @@ function App() {
     <>
     <Router>
       <Routes>
-         <Route exact path='/' element={<Navbar></Navbar>} ></Route>
-         <Route  path='/' element={<Header></Header>} ></Route>
+         <Route exact path='/' element={<Navbar></Navbar>} >
+         <Route  path='header' element={<Header></Header>} ></Route>
+         </Route>
       </Routes>
 
 
