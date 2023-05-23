@@ -1,0 +1,10 @@
+.trips-container{
+    position: absolute;
+    left: 0;
+    top:100px;
+    width: 100vw;
+    height: 100vw;
+    background-color: brown;
+    margin-top: 100px;
+    
+}

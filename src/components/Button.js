@@ -22,9 +22,9 @@ const SIZES = ['btn--medium' , 'btn--large'];
 
      return(
         <Link to='/sign-up' className="btn-mobile">
-            <button className="button">
+            {/* <button className="button">
                 {children} Sign In 
-            </button>
+            </button> */}
         </Link>
      )
 };

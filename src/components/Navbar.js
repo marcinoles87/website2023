@@ -1,6 +1,6 @@
 import React , {useState}from 'react'
 import {Link , Outlet} from 'react-router-dom'
-import Button from './Button.js'
+
 
 import './navbar.css'
 
@@ -23,9 +23,8 @@ function Navbar() {
       {click ? 
       <div className='navbar-container'>
         <Link to="/header" className="navbar-item"> Home</Link>
-        <Link to="/" className="navbar-item"> Trips</Link>
-        <Link to="/" className="navbar-item"> About</Link>
-        <Link to="/" className="navbar-item"> Contact</Link>
+        <Link to="/trips" className="navbar-item"> Trips</Link>
+        <Link to="/contact" className="navbar-item"> Contact</Link>
       </div>
 
       : ""
@@ -34,7 +33,7 @@ function Navbar() {
 
 <Outlet />
 
-          <Button></Button>
+          
     </nav>
 
     
