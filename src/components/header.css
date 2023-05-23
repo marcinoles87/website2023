@@ -1,11 +1,15 @@
 .header-container{
+    position: absolute;
+    left: 0;
+    top:100px;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    margin-top: 300px;
+    background-color: brown;
     background-image: url('./img/hero.jpg');
-    background-position: center;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .header-container h1{
@@ -13,12 +17,4 @@
     left: 0;
 }
 
-.header-img{
-    position: absolute;
-    left: 0;
-    top:100px;
-
-    
-   
-}
 

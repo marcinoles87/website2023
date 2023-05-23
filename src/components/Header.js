@@ -8,7 +8,8 @@ function Header() {
   return (
     <div className='header-container'>
         <div className='header-hero'>
-          <p>o</p>
+           <button>Visit</button>
+           <button>Choose Trip and Relax</button>
           
         </div>
 
