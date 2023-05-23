@@ -9,7 +9,7 @@ import data from '../data.json'
             <div className='trips-card'>
                 {data.map( (item,index) => {
                   return(
-                    <div >
+                    <div className='trip-item'>
                       <li key={index}>
                         <h1>{item.name}</h1>
                         <h2>{item.trip}</h2>
