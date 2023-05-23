@@ -1,8 +1,11 @@
 .header-container{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     margin-top: 300px;
     background-image: url('./img/hero.jpg');
+    background-position: center;
 }
 
 .header-container h1{
