@@ -1,10 +1,15 @@
 import React from 'react'
 import './header.css'
 
+import heroImg from './img/hero-img.jpg'
+
 function Header() {
   return (
     <div className='header-container'>
-        <h1>Main Header</h1>
+        <div className='header-hero'>
+          <img className='header-img' src={heroImg}></img>
+        </div>
+
     </div>
   )
 }

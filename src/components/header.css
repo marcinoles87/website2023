@@ -1,4 +1,19 @@
 .header-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 300px;
 }
+
+.header-container h1{
+    position: absolute;
+    left: 0;
+}
+
+.header-img{
+    position: absolute;
+    left: 0;
+    top:100px;
+    
+   
+}
+

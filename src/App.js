@@ -13,9 +13,7 @@ function App() {
          <Route  path='header' element={<Header></Header>} ></Route>
          </Route>
       </Routes>
-
-
-      </Router>
+    </Router>
     </>
   );
 }
