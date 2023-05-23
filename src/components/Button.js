@@ -6,7 +6,7 @@ const STYLES = ['btn--primary' , 'btn--outline'];
 
 const SIZES = ['btn--medium' , 'btn--large'];
 
-export const  Button = ({
+ const  Button = ({
     children,
     type,
     onClick,
@@ -22,9 +22,11 @@ export const  Button = ({
 
      return(
         <Link to='/sign-up' className="btn-mobile">
-            <button>
-                {children}
+            <button className="button">
+                {children} Sign In 
             </button>
         </Link>
      )
 };
+
+export default Button
