@@ -14,13 +14,16 @@ function App() {
       
          <Route exact path='/' element={<Navbar></Navbar>} >
          <Route  path='header' element={<Header></Header>} ></Route>
-         <Route  path='trips' element={<Trips picture={data.im}></Trips>} ></Route>
+         <Route  path='trips' element={<Trips></Trips>} ></Route>
          <Route  path='contact' element={<Header></Header>} ></Route>
          </Route>
          
       </Routes>
     </Router>
+   
     </>
+
+  
   );
 }
 
