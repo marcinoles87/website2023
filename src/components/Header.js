@@ -2,7 +2,6 @@ import React from 'react'
 import './header.css'
 import Button from './Button.js'
 
-import heroImg from './img/hero.jpg'
 
 function Header() {
   return (

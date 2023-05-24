@@ -2,7 +2,7 @@ import React from 'react'
 import './trips.css'
 import data from '../data.json'
 
- function Trips() {
+ function Trips(props) {
 
   return (
     <div className='trips-container'>
@@ -16,7 +16,7 @@ import data from '../data.json'
                       <li key={index}>
                         <h1>{item.name}</h1>
                         <h2>{item.trip}</h2>
-                        <img src={item.im} alt={item.name}></img>
+                        <img src={props.picture} alt={item.name}></img>
                       </li>
                       </div>
                   )
