@@ -2,7 +2,7 @@ import React from 'react'
 import './trips.css'
 import data from '../data.json'
 
- function Trips(props) {
+ function Trips() {
 
   return (
     <div className='trips-container'>
@@ -10,13 +10,13 @@ import data from '../data.json'
             <div className='trips-card'>
                 {data.map( (item,index) => {
 
-                  console.log(item.im)
+                  console.log(item)
                   return(
                     <div className='trip-item' key={index}>
                       <li key={index}>
                         <h1>{item.name}</h1>
                         <h2>{item.trip}</h2>
-                        <img src={props.picture} alt={item.name}></img>
+                        <img src={item.im} alt={item.name}></img>
                       </li>
                       </div>
                   )
