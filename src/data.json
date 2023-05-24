@@ -1,11 +1,16 @@
 [ 
     {
         "name" : "one",
-        "trip" : "auschwitz"
-},
+        "trip" : "auschwitz",
+        "img" : "url('/img/hero.jpg')"
+}
+,
 
 {
     "name" : "one",
-    "trip" : "energylandia"
+    "trip" : "energylandia",
+    "img" : "url('img/hero.jpg')" 
+
 }
+
 ]

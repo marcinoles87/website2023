@@ -13,6 +13,7 @@ import data from '../data.json'
                       <li key={index}>
                         <h1>{item.name}</h1>
                         <h2>{item.trip}</h2>
+                        {item.img}
                       </li>
                       </div>
                   )
