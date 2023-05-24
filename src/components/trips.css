@@ -1,4 +1,8 @@
 .trips-container{
+    /* display: block; */
+}
+
+.trips-list{
     /* position: absolute;
     left: 0;
     top:100px;
