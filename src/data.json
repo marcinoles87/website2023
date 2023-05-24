@@ -2,14 +2,14 @@
     {
         "name" : "one",
         "trip" : "auschwitz",
-        "img" : "img/hero-img.jpg"
+        "im" : "img/hero-img.jpg"
 }
 ,
 
 {
     "name" : "one",
     "trip" : "energylandia",
-    "img" : "img/hero.jpg" 
+    "im" : "img/hero.jpg" 
 
 }
 
