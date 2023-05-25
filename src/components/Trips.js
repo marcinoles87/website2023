@@ -17,7 +17,7 @@ import data from '../data.json'
                       <li key={index}>
                         <h1>{item.name}</h1>
                         <h2>{item.trip}</h2>
-                        <img src={item.im} alt={item.name}></img>
+                        <img src={item.im} alt={item.name} className='trip-img'></img>
                       </li>
                       </div>
                   )
