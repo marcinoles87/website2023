@@ -20,6 +20,8 @@ function App() {
          
       </Routes>
     </Router>
+
+    <video src='video/front' type='video/mp4' autoPlay muted></video>
    
     </>
 
