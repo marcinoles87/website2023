@@ -24,6 +24,16 @@
     flex-direction: column;
 }
 
+.header-hero h1{
+   position: absolute;
+   top:200px;
+   left: 200px;
+   color:rgb(255, 255, 255);
+   text-shadow: 0  10px 10px rgb(0, 0, 0);
+   font-size:80px;
+
+}
+
 button{
     position: absolute;
     top:50%;
