@@ -25,6 +25,7 @@ function Navbar() {
         <Link to="/header" className="navbar-item"> Home</Link>
         <Link to="/trips" className="navbar-item"> Trips</Link>
         <Link to="/contact" className="navbar-item"> Contact</Link>
+        <Link to="/contact" className="navbar-item"> Price</Link>
       </div>
 
       : ""
