@@ -1,45 +1,26 @@
 .trips-container{
-    display: block;
-}
-
-.trips-list{
-    /* position: absolute;
+    position: absolute;
+    top:0;
     left: 0;
-    top:100px;
     width: 100vw;
     height: 100vh;
-    background-color: brown;
-    background-image: url('./img/hero.jpg');
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
+    
 
-    position: absolute;
-    top: 100px;
-    left: 0;
-    /* display: flex; */
-    width: 100vw;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    
-   
-    
 }
 
 .trips-card{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 20px 20px;
-    width: 30vw;
+    justify-content:space-between;
+    
 
 }
 
 
 
 .trip-item{
-   margin: 0 20px;
+  
    border: 2px solid black;
    padding: 10px;
    justify-content: center;
