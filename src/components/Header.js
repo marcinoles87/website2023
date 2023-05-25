@@ -7,9 +7,10 @@ function Header() {
   return (
     <div className='header-container'>
         <div className='header-hero'>
-           <button>Visit</button>
-           <button>Choose Trip and Relax</button>
           
+          
+           <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted />
+           <h1> ADVENTURE START NOW...</h1>
         </div>
 
     </div>
