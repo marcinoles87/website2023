@@ -16,7 +16,7 @@ import data from '../data.json'
                   return(
                     <div className='trip-item' key={index}>
                       <li key={index} className='trip-item-one'>
-                        <h2>{tripName}</h2>
+                        <h2 className='trip-name'>{tripName}</h2>
                         <img src={item.im} alt={item.name} className='trip-img'></img>
                         <button className='trip-btn'>More</button>
                       </li>
