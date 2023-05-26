@@ -13,19 +13,16 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content:space-around;
-    height: 50vh;
+    height: 60vh;
     
 }
 
 
 
 .trip-item{
-  
-   border: 2px solid black;
    padding: 10px;
    justify-content: center;
-   background-color: black;
-   color:white;
+   
 
 }
 
@@ -33,7 +30,13 @@
     object-fit: contain;
     width: 40vw;
     height: 40vh;
+    box-shadow: 5px 5px 5px black;
+    transition: 1s ease;
     
+}
+
+.trip-img:hover{
+    transform: scale(1.2);
 }
 
 .trip-item-one{
@@ -43,6 +46,7 @@
 }
 
 .trip-btn{
+    margin-top: 40px;
     width: 100px;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.923);
