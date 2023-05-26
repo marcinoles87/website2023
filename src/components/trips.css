@@ -11,7 +11,7 @@
 .trips-card{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content:space-around;
     height: 60vh;
     
@@ -27,7 +27,8 @@
 }
 
 .trip-img{
-    object-fit: contain;
+    margin-top: 30px;
+    object-fit: cover;
     width: 40vw;
     height: 40vh;
     box-shadow: 5px 5px 5px black;

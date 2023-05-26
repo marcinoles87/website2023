@@ -11,11 +11,12 @@ import data from '../data.json'
             <div className='trips-card'>
                 {data.map( (item,index) => {
 
+                  const tripName = item.tripName.toUpperCase()
                   console.log(item.im)
                   return(
                     <div className='trip-item' key={index}>
                       <li key={index} className='trip-item-one'>
-                        <h2>{item.tripName}</h2>
+                        <h2>{tripName}</h2>
                         <img src={item.im} alt={item.name} className='trip-img'></img>
                         <button className='trip-btn'>More</button>
                       </li>

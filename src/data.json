@@ -4,15 +4,36 @@
     {
         "name" : "one",
         "tripName" : "auschwitz",
-        "im" : "img/hero-img.png"
+        "im" : "img/auschwitz.jpg"
 
 },
 
 
 {
     "name" : "one",
-    "tripName" : "auschwitz",
+    "tripName" : "wieliczka",
     "im" : "img/hero.jpg"
+
+},
+
+{
+    "name" : "one",
+    "tripName" : "energylandia",
+    "im" : "img/energy.jpg"
+
+},
+
+{
+    "name" : "one",
+    "tripName" : "zakopane",
+    "im" : "img/zakopane.jpg"
+
+},
+
+{
+    "name" : "one",
+    "tripName" : "czestochowa",
+    "im" : "img/czestochowa.jpg"
 
 }
 

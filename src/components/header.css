@@ -12,6 +12,7 @@
 .header-btn{
     position:absolute;
     left: 40%;
+    top:50%;
     height: 40px;
     background-color: rgba(0, 0, 0 , 0.4);
     color:white;
