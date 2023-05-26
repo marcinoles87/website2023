@@ -19,8 +19,8 @@ import data from '../data.json'
                       <li key={index} className='trip-item-one'>
                         {/* <h2 className='trip-name'>{tripName}</h2> */}
                         <img src={item.im} alt={item.name} className='trip-img'></img>
-                        <p className='trip-info'>{item.info}</p>
-                        <button className='trip-btn'>More</button>
+                        <p className='trip-info'>{item.info}
+                        <button className='trip-btn'>More</button></p>
                       </li>
                       </div>
                   )
