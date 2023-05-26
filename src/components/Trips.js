@@ -14,10 +14,11 @@ import data from '../data.json'
                   console.log(item.im)
                   return(
                     <div className='trip-item' key={index}>
-                      <li key={index}>
+                      <li key={index} className='trip-item-one'>
                         <h1>{item.name}</h1>
                         <h2>{item.trip}</h2>
                         <img src={item.im} alt={item.name} className='trip-img'></img>
+                        <button className='trip-btn'>More</button>
                       </li>
                       </div>
                   )

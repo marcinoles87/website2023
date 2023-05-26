@@ -3,7 +3,7 @@
 [ 
     {
         "name" : "one",
-        "trip" : "auschwitz",
+        "tripName" : "auschwitz",
         "im" : "img/hero-img.png"
 
 },
@@ -11,7 +11,7 @@
 
 {
     "name" : "one",
-    "trip" : "auschwitz",
+    "tripName" : "auschwitz",
     "im" : "img/hero.jpg"
 
 }
