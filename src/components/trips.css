@@ -12,7 +12,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content:space-around;
+    height: 50vh;
     
 
 }
@@ -28,6 +29,8 @@
 }
 
 .trip-img{
+    object-fit: contain;
     width: 30vw;
+    height: 30vh;
     
 }
