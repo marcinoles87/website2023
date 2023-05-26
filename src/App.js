@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 
 import { BrowserRouter as Router , Route , Routes } from 'react-router-dom';
 import data from './data.json'
+import Home from './components/pages/Home';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Routes>
       
          <Route exact path='/' element={<Navbar></Navbar>} >
-         <Route  path='header' element={<Header></Header>} ></Route>
+         <Route  path='home' element={<Home></Home>} ></Route>
          <Route  path='trips' element={<Trips></Trips>} ></Route>
          <Route  path='contact' element={<Contact></Contact>} ></Route>
          </Route>
