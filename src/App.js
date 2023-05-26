@@ -1,12 +1,11 @@
 import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Trips from './components/Trips';
 import Contact from './components/Contact';
 
 import { BrowserRouter as Router , Route , Routes } from 'react-router-dom';
-import data from './data.json'
 import Home from './components/pages/Home';
 
 function App() {
