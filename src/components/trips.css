@@ -42,9 +42,9 @@
     object-fit: cover;
     width: 100%;
     height: 40vh;
-    box-shadow: 5px 5px 5px black;
     transition: 1s ease;
-    border-radius: 20px;
+    
+    
     
 }
 
@@ -58,14 +58,17 @@
     align-items: center;
     overflow: hidden;
     width: 30vw;
+    box-shadow: 3px 3px 5px black;
+
     
 }
 
 .trip-info{
-    margin-top: 30px;
+    padding-top: 20px;
     font-size: 20px;
     text-align: center;
     background-color: rgb(226, 226, 226);
+    z-index: 1;
     
 }
 
