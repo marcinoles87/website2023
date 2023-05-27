@@ -3,39 +3,20 @@
     .contact-wrapper{
 
         margin-top: 50px;
+        display: flex;
+        flex-direction: column;
     }
     
 
         .contact-link{
-            display: flex;
+            /* display: flex;
             flex-direction: row;
             align-items: center;
             justify-content:space-evenly;
-            height: 70vh;
+            height: 20vh; */
         }
 
-        .contact-message{
-            display: flex;
-            flex-direction: column;
-            align-items: center;}
-
-            input{
-                width: 300px;
-                font-size: 30px;
-                margin: 10px;
-            }
-
-            textarea{
-                width: 300px;
-                height: 200px;
-            }
-
-            button{
-                width: 100px;
-                height: 40px;
-                margin: 10px;
-            }
-
+     
             
         
     
