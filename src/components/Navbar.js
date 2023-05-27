@@ -6,7 +6,15 @@ import './navbar.css'
 import Home from './pages/Home'
 
 function Navbar() {
-  const [click , setClick] = useState(false)
+  const [click , setClick] = useState(true)
+  const [menuOn , setMenu] = useState(false)
+
+  
+    if(window.innerWidth < 400){
+    setMenu()
+    }
+    console.log(menuOn)
+  
 
   const handleClick = () =>  setClick(!click)
   
@@ -14,7 +22,7 @@ function Navbar() {
     <nav className='navbar'>
 
       <div className='navbar-logo'>
-        <i className='fab fa-typo3'/>
+        <i className='fab fa-typo3'/> 
       </div>
 
       <div className='navbar-menu' onClick={handleClick}>
