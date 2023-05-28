@@ -4,9 +4,21 @@
     top:100px;
     width: 100vw;
     height: 100vh;
-    /* background-color: brown; */
-    /* background-image: url('../img/hero.jpg'); */
+   z-index: -1;
   
+}
+
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+    
 }
 
 .header-btn{
@@ -26,21 +38,18 @@
 
 .video{
     object-fit: cover;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: fixed;
     z-index: -1;
 }
 
-.header-hero{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .header-hero h1{
-   position: absolute;
+   /* position: absolute;
    top:200px;
-   left: 200px;
+   left: 200px; */
    color:rgb(255, 255, 255);
    text-shadow: 0  10px 10px rgb(0, 0, 0);
    font-size:80px;

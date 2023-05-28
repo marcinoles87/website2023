@@ -8,9 +8,8 @@ function Header() {
     <div className='header-container'>
         <div className='header-hero'>
           
-          
-           <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted />
            <h1> ADVENTURE START NOW...</h1>
+           <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted />
            <button className='header-btn'>GET STARTED</button>
            
         </div>
