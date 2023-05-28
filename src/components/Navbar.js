@@ -3,6 +3,7 @@ import {Link , Outlet} from 'react-router-dom'
 
 
 import './navbar.css'
+import Header from './Header'
 
 
 function Navbar() {
@@ -34,7 +35,7 @@ function Navbar() {
         <Link to="/home" className="navbar-item"> Home</Link>
         <Link to="/trips" className="navbar-item"> Trips</Link>
         <Link to="/contact" className="navbar-item"> Contact</Link>
-       
+        
       </div>
 
       : ""

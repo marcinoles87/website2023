@@ -58,10 +58,12 @@
     align-items: center;
     overflow: hidden;
     width: 30vw;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px rgb(156, 156, 156);
 
     
 }
+
+
 
 .trip-info{
     display: flex;

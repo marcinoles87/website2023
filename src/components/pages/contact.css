@@ -33,6 +33,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content:center;
             background-color: rgb(22, 22, 22);
             color: white;
         }
@@ -52,6 +53,32 @@
         .contact-message button{
             width: 100px;
             height: 40px;
+        }
+
+        .contact-footer{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contact-map{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: rgb(22, 22, 22);
+
+            color:white;
+        }
+
+        .contact-map a{
+            text-decoration: none;
+            color: white;
+            transition: 0.6s ease;
+        }
+
+        .contact-map a :hover{
+            font-size: larger;
         }
 
      

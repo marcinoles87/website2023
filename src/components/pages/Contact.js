@@ -20,6 +20,7 @@ function Contact() {
              
       </div>
 
+      <div className='contact-footer'>
       <div className='contact-message'>
         <h1>Have a question :</h1>
         <input type='text' placeholder='name' ></input>
@@ -28,6 +29,21 @@ function Contact() {
         <input type='date' placeholder='choose date'></input>
         <textarea type='text' placeholder='send message'></textarea>
         <button>Send</button>
+
+      </div>
+
+      <div className='contact-map'>
+        <a href='#'>Home</a>
+        <a href='#'>Home</a>
+        <a href='#'>Home</a>
+        <a href='#'>Home</a>
+        <a href='#'>Home</a>
+        <a href='#'>Home</a>
+        <a href='#'>Home</a>
+
+
+      </div>
+
 
       </div>
 
