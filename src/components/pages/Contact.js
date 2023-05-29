@@ -8,18 +8,22 @@ function Contact() {
 
   const colorChange = [
     {transform : "translateY(10px)"},
-    // {transform : "translateY(-10px)"}
+    
   ]
-
- 
-  
 
   const myI = () => {
     const arrow = document.getElementById('arrowUp')
     arrow.animate(colorChange,1000 )
   }
 
-  setInterval(myI,1000)
+  if(window.innerHeight < 700)
+  {
+    setInterval(myI,1000)
+    clearInterval(myI)
+  }
+  
+  
+
   return(
   <div className='contact-wrapper' id='contact'>
 
