@@ -6,14 +6,20 @@ import instagramLogo from '/web frontend/projekty React/website2023/src/img/inst
 
 function Contact() {
 
+  const colorChange = [
+    {transform : "translateY(10px)"},
+    // {transform : "translateY(-10px)"}
+  ]
+
+ 
   
 
   const myI = () => {
     const arrow = document.getElementById('arrowUp')
-    arrow.style.transform()
+    arrow.animate(colorChange,1000 )
   }
 
-  // setInterval(myI,1000)
+  setInterval(myI,1000)
   return(
   <div className='contact-wrapper' id='contact'>
 
