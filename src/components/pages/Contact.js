@@ -17,8 +17,14 @@ function Contact() {
               <a href='https://www.auschwitzsaltmine.com'><img src={trip} alt='tripadvisor'></img></a>
               <a href='https://www.auschwitzsaltmine.com'><img src={instagramLogo}  alt='instagram'></img></a>
               
+              
              
       </div>
+
+      <div className='contact-arrow'>
+        <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      
 
       <div className='contact-footer'>
       <div className='contact-message'>

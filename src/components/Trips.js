@@ -7,7 +7,7 @@ import data from '../data.json'
   
   return (
     <div className='trips-container'>
-      <h1>Check out our Trip and Smile</h1>
+      <h1>Check out our Trip and Visit with the smile...</h1>
         <div className='trips-list'>
             <div className='trips-card'>
                 {data.map( (item,index) => {
