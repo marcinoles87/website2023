@@ -5,6 +5,15 @@ import trip from '/web frontend/projekty React/website2023/src/img/trip.jpg'
 import instagramLogo from '/web frontend/projekty React/website2023/src/img/instagramLogo.jpg'
 
 function Contact() {
+
+  
+
+  const myI = () => {
+    const arrow = document.getElementById('arrowUp')
+    arrow.style.transform()
+  }
+
+  // setInterval(myI,1000)
   return(
   <div className='contact-wrapper' id='contact'>
 
@@ -22,7 +31,7 @@ function Contact() {
       </div>
 
       <div className='contact-arrow'>
-        <i class="fa-solid fa-arrow-down"></i>
+        <i class="fa-solid fa-arrow-down" id="arrowUp"></i>
         </div>
       
 
