@@ -3,7 +3,7 @@ import {Link , Outlet} from 'react-router-dom'
 
 
 import './navbar.css'
-import Header from './Header'
+
 
 
 function Navbar() {

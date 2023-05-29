@@ -34,12 +34,12 @@ function Contact() {
 
       <div className='contact-map'>
         <a href='#'>Home</a>
-        <a href='#'>Home</a>
-        <a href='#'>Home</a>
-        <a href='#'>Home</a>
-        <a href='#'>Home</a>
-        <a href='#'>Home</a>
-        <a href='#'>Home</a>
+        <a href='#'>Information</a>
+        <a href='#'>Trip</a>
+        <a href='#'>Price</a>
+        <a href='#'>Facebook</a>
+        <a href='#'>Instagram</a>
+        <a href='#'>TripAdvisor</a>
 
 
       </div>
