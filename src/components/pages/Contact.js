@@ -33,6 +33,7 @@ function Contact() {
       </div>
 
       <div className='contact-map'>
+        <h1>Site Map</h1>
         <a href='#'>Home</a>
         <a href='#'>Information</a>
         <a href='#'>Trip</a>
