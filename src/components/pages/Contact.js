@@ -16,11 +16,11 @@ function Contact() {
     arrow.animate(colorChange,1000 )
   }
 
-  if(window.innerHeight  > 600)
-  {
-    setInterval(myI,1000)
-    clearInterval(myI)
-  }
+  // if(window.innerHeight  > 600)
+  // {
+  //   setInterval(myI,1000)
+  //   clearInterval(myI)
+  // }
   
   
 
