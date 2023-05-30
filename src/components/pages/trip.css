@@ -1,0 +1,17 @@
+.trip-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-around;
+    align-items: stretch;
+    top: 100px;
+    left: 0;
+    flex-basis: 200px;
+    width: 100vw;
+}
+
+.trip-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
