@@ -6,7 +6,8 @@
     "name" : "one",
     "tripName" : "cracow town",
     "im" : "img/cracow.jpg",
-    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !"
+    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
+    "price" : "20EURO/PERSON"
 
 },
 
@@ -14,7 +15,8 @@
         "name" : "one",
         "tripName" : "auschwitz",
         "im" : "img/auschwitz.jpg",
-        "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !"
+        "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
+        "price" : "20EURO/PERSON"
 
 },
 
@@ -23,7 +25,8 @@
     "name" : "one",
     "tripName" : "wieliczka",
     "im" : "img/hero.jpg",
-    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !"
+    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
+    "price" : "20EURO/PERSON"
 
 },
 
@@ -31,7 +34,8 @@
     "name" : "one",
     "tripName" : "energylandia",
     "im" : "img/energy.jpg",
-    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !"
+    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
+    "price" : "20EURO/PERSON"
 
 },
 
@@ -39,7 +43,8 @@
     "name" : "one",
     "tripName" : "zakopane",
     "im" : "img/zakopane.jpg",
-    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !"
+    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
+    "price" : "20EURO/PERSON"
 
 },
 
@@ -47,7 +52,8 @@
     "name" : "one",
     "tripName" : "czestochowa",
     "im" : "img/czestochowa.jpg",
-    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !"
+    "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
+    "price" : "20EURO/PERSON"
 
 }
 

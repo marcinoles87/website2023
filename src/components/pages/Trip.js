@@ -9,11 +9,12 @@ function Trip() {
 
       {data.map( (item , index) => {
         return(
-          <div className='trip-card'>
-            
-              <h1>{item.name}</h1>
-              {/* <p>Description</p> */}
+          <div className='trip-card' key={index}>
               <img src={item.im} alt={item.tripName}></img>
+              <h1>{item.name}</h1>
+              <p>{item.item}</p>
+              <h3>Price : {item.price}</h3>
+              
               {/* <h3>price</h3>
               <h3>time</h3> */}
               
