@@ -6,7 +6,10 @@ import {Link} from 'react-router-dom'
 
  function Trips() {
 
-  const  handleOnClick = () => <Link to="/home" className="navbar-item"></Link>
+  const  handleOnClick = () => {
+    window.location.replace('http://localhost:3000/home');
+    console.log('dziala')
+  }
       
     
  
