@@ -6,6 +6,9 @@ import {Link} from 'react-router-dom'
 
  function Trips() {
 
+  const  handleOnClick = () => <Link to="/home" className="navbar-item"></Link>
+      
+    
  
   
   return (
@@ -16,11 +19,7 @@ import {Link} from 'react-router-dom'
                 {data.map( (item,index) => {
                   
                   
-                  const  handleOnClick = (e) => {
-                        console.log(e);
-                        <Link to="/trip" className="navbar-item"> Contact</Link>
-                      
-                    }
+                 
                   
                   return(
                     <div className='trip-item' key={index}>
