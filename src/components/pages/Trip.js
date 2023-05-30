@@ -6,15 +6,17 @@ function Trip() {
 
   return (
     <div className='trip-container'>
-      
+
       {data.map( (item , index) => {
         return(
           <div className='trip-card'>
+            
               <h1>{item.name}</h1>
-              <p>Description</p>
+              {/* <p>Description</p> */}
               <img src={item.im} alt={item.tripName}></img>
-              <h3>price</h3>
-              <h3>time</h3>
+              {/* <h3>price</h3>
+              <h3>time</h3> */}
+              
           </div>
         )
       })}
