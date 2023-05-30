@@ -59,13 +59,13 @@ function Contact() {
 
       <div className='contact-map'>
         <h1>Site Map</h1>
-        <a href='#'>Home</a>
-        <a href='#'>Information</a>
-        <a href='#'>Trip</a>
-        <a href='#'>Price</a>
-        <a href='#'>Facebook</a>
-        <a href='#'>Instagram</a>
-        <a href='#'>TripAdvisor</a>
+        <a href='/contact'>Home</a>
+        <a href='/home'>Information</a>
+        <a href='/trips'>Trip</a>
+        <a href='/price'>Price</a>
+        <a href='home'>Facebook</a>
+        <a href='home'>Instagram</a>
+        <a href='home'>TripAdvisor</a>
 
 
       </div>
