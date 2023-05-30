@@ -11,10 +11,12 @@ function Trip() {
         return(
           <div className='trip-card' key={index}>
               <img src={item.im} alt={item.tripName}></img>
-              <h1>{item.name}</h1>
+              <div className='trip-info'>
+              <h1>Name :{item.name}</h1>
               
               <h3>Price : {item.price}</h3>
               <p>{item.info}</p>
+              </div>
               {/* <h3>price</h3>
               <h3>time</h3> */}
               

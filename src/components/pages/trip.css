@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
+    height: 90vh;
     margin: 20px;
     text-align: center;
 }
@@ -22,6 +23,12 @@
 .trip-card img{
     object-fit:cover;
    width: 30vw;
-   height: 40vh
+   height: 40vh;
+   flex-grow: 1;
+}
+
+.trip-info{
+    flex-grow: 5;
+    text-align: center;
 }
 
