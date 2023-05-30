@@ -3,7 +3,7 @@
 [ 
 
 {
-    "name" : "one",
+    "name" : "CRACOW",
     "tripName" : "cracow town",
     "im" : "img/cracow.jpg",
     "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
@@ -12,7 +12,7 @@
 },
 
     {
-        "name" : "one",
+        "name" : "AUSCHWITZ",
         "tripName" : "auschwitz",
         "im" : "img/auschwitz.jpg",
         "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
@@ -22,7 +22,7 @@
 
 
 {
-    "name" : "one",
+    "name" : "SALTMINE",
     "tripName" : "wieliczka",
     "im" : "img/hero.jpg",
     "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
@@ -31,7 +31,7 @@
 },
 
 {
-    "name" : "one",
+    "name" : "ENERGYLANDIA",
     "tripName" : "energylandia",
     "im" : "img/energy.jpg",
     "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
@@ -40,7 +40,7 @@
 },
 
 {
-    "name" : "one",
+    "name" : "ZAKOPANE",
     "tripName" : "zakopane",
     "im" : "img/zakopane.jpg",
     "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
@@ -49,7 +49,7 @@
 },
 
 {
-    "name" : "one",
+    "name" : "CZESTOCHOWA",
     "tripName" : "czestochowa",
     "im" : "img/czestochowa.jpg",
     "info" : "zwiedz najpiekniejsze miejsce w Polsce - Krakow piekne i wyjatkowe !",
