@@ -1,0 +1,22 @@
+.price-container{
+    display: flex;
+    flex-direction: row;
+    margin-top:300px;
+    text-align: center;
+    
+}
+
+.price-person{
+    width: 30vw;
+    background-color: red;
+}
+
+.price-group{
+    width: 30vw;
+    background-color: blue;
+}
+
+.price-individual{
+    width: 30vw;
+    background-color: green;
+}
