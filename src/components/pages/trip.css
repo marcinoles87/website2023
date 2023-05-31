@@ -17,8 +17,8 @@
     width: 100vw;
     height: 80vh;
     margin: 20px;
-    justify-content: sp;
-    align-items: ;
+    
+   
 }
 
 .trip-galllery{
@@ -57,5 +57,6 @@
 
 .trip-info h1 {
     font-size: 60px;
+    letter-spacing: 10px;
 }
 
