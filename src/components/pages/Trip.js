@@ -18,10 +18,12 @@ function Trip() {
               </div>
 
               <div className='trip-info'>
-              <h1>Name :{item.name}</h1>
+              <h1>{item.name}</h1>
               
-              <h3>Price : {item.price}</h3>
+              <h2>Price : {item.price}</h2>
               <p>{item.info}</p>
+              <h2>Time : {item.time}</h2>
+              <h2>Reating : {item.rating}</h2>
               </div>
               {/* <h3>price</h3>
               <h3>time</h3> */}

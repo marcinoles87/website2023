@@ -17,7 +17,8 @@
     width: 100vw;
     height: 80vh;
     margin: 20px;
-    text-align: center;
+    justify-content: sp;
+    align-items: ;
 }
 
 .trip-galllery{
@@ -46,8 +47,15 @@
    margin: 10px;
 }
 
+
+
 .trip-info{
     flex-grow: 5;
-    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.trip-info h1 {
+    font-size: 60px;
 }
 
