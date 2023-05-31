@@ -31,7 +31,7 @@ import {Link} from 'react-router-dom'
                       <li key={index} className='trip-item-one'>
                        
                         <img src={item.im} alt={item.name} className='trip-img'></img>
-                        <p className='trip-info'>{item.info}
+                        <p className='trip-info'>
                         <button className='trip-btn' onClick={handleOnClick}>More</button></p>
                         <Link to="/trip" className="trip-redirect"> More Info</Link>
                       </li>
