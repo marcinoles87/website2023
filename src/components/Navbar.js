@@ -24,6 +24,7 @@ function Navbar() {
 
       <div className='navbar-logo'>
         <i className='fab fa-typo3'/> 
+        <p> Viptour2023</p>
       </div>
 
       <div className='navbar-menu' onClick={handleClick}>

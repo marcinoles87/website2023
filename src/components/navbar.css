@@ -12,8 +12,10 @@
 }
 
 .navbar-logo{
+    display: flex;
     margin-right: 50vw;
     color:white;
+    
 }
 
 .navbar-menu{
