@@ -9,6 +9,15 @@ function Price() {
 
         <div className='price-person'>
           <h1>Price per person</h1>
+            <ul className='price-list'>Per Persone
+
+                <li className='price-list-item'>individual site</li>
+                <li className='price-list-item'>individual site</li>
+                <li className='price-list-item'>individual site</li>
+                <li className='price-list-item'>individual site</li>
+                <span className='price-btn'>100E</span>
+           </ul>
+          
         </div>
 
         <div className='price-group'>

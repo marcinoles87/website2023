@@ -4,6 +4,7 @@
     left: 0;
     width: 100vw;
     display: flex;
+    margin-top: 100px;
     flex-direction: row;
     text-align: center;
     align-items: center;
@@ -13,7 +14,12 @@
 
 .price-person{
     width: 30vw;
-    background-color: red;
+    background-color: rgb(119, 119, 103);
+    border-radius: 10px;
+}
+
+.price-list{
+  
 }
 
 .price-group{
