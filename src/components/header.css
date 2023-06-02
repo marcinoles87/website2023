@@ -80,8 +80,16 @@
 }
 
 .header-information2 h1{
-    background-color: black;
+    background-color:rgba(0, 0, 0 , 0.4);
     color:white;
+    height: 100%;
+    padding: 20px;
+    width: 40vw;
+    text-align: center;
+
+}
+
+.header-information2-back{
     height: 100%;
     padding: 20px;
     width: 40vw;
@@ -89,10 +97,6 @@
     background-image: url('../img/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    
-    
-    
-
 }
 
 .header-information2 p{
