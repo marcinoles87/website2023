@@ -108,7 +108,8 @@
 .header-plus{
     display: flex;
     flex-direction: column;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
+    text-align: center;
     
 }
 
@@ -117,11 +118,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 90vw;
+    margin: 80px;
 
 }
 
 .header-plus-item{
     width: 30vw;
+    font-size: 25px;
+
 }
 
 
