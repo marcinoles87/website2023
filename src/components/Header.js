@@ -9,7 +9,11 @@ function Header() {
         <div className='header-hero'>
           
            
-           <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted />
+           {/* <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted /> */}
+           <video src='/video/frontfilm.mp4' type='video/mp4' autoPlay loop muted />
+           
+           
+           <h1> ADVENTURE START NOW...</h1>
            <h1> ADVENTURE START NOW...</h1>
             <button className='header-btn'>GET STARTED</button>
            
