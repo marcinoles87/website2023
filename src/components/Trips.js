@@ -6,11 +6,11 @@ import {Link} from 'react-router-dom'
 
  function Trips() {
 
-  const  handleOnClick = () => {
+  // const  handleOnClick = () => {
     
-    window.location.replace('http://localhost:3000/trip');
-    console.log('dziala')
-  }
+  //   window.location.replace('http://localhost:3000/trip');
+  //   console.log('dziala')
+  // }
       
     
  
@@ -31,8 +31,8 @@ import {Link} from 'react-router-dom'
                       <li key={index} className='trip-item-one'>
                        
                         <img src={item.im} alt={item.name} className='trip-img'></img>
-                        <p className='trip-info'>
-                        <button className='trip-btn' onClick={handleOnClick}>More</button></p>
+                        <p className='trip-info'></p>
+                        {/* <button className='trip-btn' onClick={handleOnClick}>More</button></p> */}
                         <Link to="/trip" className="trip-redirect"> More Info</Link>
                       </li>
                       </ul>

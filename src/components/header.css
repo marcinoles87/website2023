@@ -90,6 +90,9 @@
 }
 
 .header-information2-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 40vw;
     text-align: center;
