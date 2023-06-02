@@ -12,6 +12,13 @@
     text-align: center;
 }
 
+/* .trip-information{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    text-align: center;
+} */
+
 .trips-card{
     display: flex;
     flex-direction: row;
