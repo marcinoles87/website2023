@@ -105,4 +105,25 @@
     font-size: 30px;
 }
 
+.header-plus{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    
+}
+
+.header-plus-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.header-plus-item{
+    width: 30vw;
+}
+
+
+
 
