@@ -13,9 +13,13 @@
 
 .navbar-logo{
     display: flex;
-    margin-right: 50vw;
+    margin-right: 45vw;
     color:white;
     
+}
+
+.navbar-logo p{
+    margin-left: 10px;
 }
 
 .navbar-menu{
