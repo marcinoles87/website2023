@@ -10,14 +10,17 @@
 
 .trips-container h1{
     text-align: center;
+    border-bottom: 3px solid rgb(33, 159, 255);
 }
 
-/* .trip-information{
-    display: flex;
-    flex-direction: column;
-    height: 60vh;
+.trip-information{
     text-align: center;
-} */
+    margin: 30px 100px;
+}
+
+.trip-information p{
+    font-size: 30px;
+}
 
 .trips-card{
     display: flex;
