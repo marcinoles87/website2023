@@ -57,13 +57,13 @@ function Header() {
                   </div>
 
                   <div className='header-plus-item'>
-                  <i className="fa-solid fa-user"></i>
+                  <i class="fa-solid fa-road"></i>
                     <h3>Atraction</h3>
                     Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
                   </div>
 
                   <div className='header-plus-item'>
-                  <i className="fa-solid fa-user"></i>
+                  <i className="fa-solid fa-user"> + 4</i>
                     <h3>Atraction</h3>
                     Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
                   </div>
