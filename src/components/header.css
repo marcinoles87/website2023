@@ -63,7 +63,7 @@
     flex-direction: column;
     align-items: center;
     margin: 100px;
-    border-top: 1px solid black;
+    border-top: 3px solid rgb(33, 159, 255);
     text-align: center;
 }
 
@@ -110,6 +110,10 @@
     
 }
 
+.header-plus h2{
+    border-bottom: 3px solid rgb(33, 159, 255);;
+}
+
 
 
 .header-information p{
@@ -121,6 +125,7 @@
     flex-direction: column;
     /* background-color: greenyellow; */
     text-align: center;
+    
     
 }
 
