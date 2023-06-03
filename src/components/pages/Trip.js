@@ -23,7 +23,7 @@ function Trip() {
               <h2>Price : {item.price}</h2>
               
               <h2>Time : {item.time}</h2>
-              <h2>Reating : {item.rating}</h2>
+              <h2>Reating : {item.rating} <i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i></h2>
               </div>
               {/* <h3>price</h3>
               <h3>time</h3> */}

@@ -21,6 +21,11 @@
    
 }
 
+.fa-star:hover{
+    color:yellow;
+    
+}
+
 .trip-galllery{
     display: flex;
     flex-direction: column;
