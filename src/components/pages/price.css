@@ -28,10 +28,18 @@
     background-color: rgb(255, 255, 255);
     width: 100px;
     height: 50px;
+    border: none;
     border-radius: 10px;
-    color: rgb(23, 0, 136);
+    color: rgb(13,39,103);
     margin: 10px;
     font-size: 40px;
+    transition: 0.6s ease;
+}
+
+.price-btn:hover{
+    color:white;
+    background-color:rgb(13, 39, 103);
+    border: 1px solid white;
 }
 
 .price-group{

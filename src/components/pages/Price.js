@@ -3,9 +3,11 @@ import './price.css'
 
 function Price() {
   return (
+
+    
     <div className='price-container'>
       
-
+     
 
         <div className='price-person'>
           <h1>Price per person</h1>
