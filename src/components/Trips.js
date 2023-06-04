@@ -36,7 +36,7 @@ import {Link} from 'react-router-dom'
                     <div className='trip-item' key={index}>
                       <ul>
                       <li key={index} className='trip-item-one'>
-                       
+                        <h3>{item.tripName}</h3>
                         <img src={item.im} alt={item.name} className='trip-img'></img>
                         <p className='trip-info'></p>
                         {/* <button className='trip-btn' onClick={handleOnClick}>More</button></p> */}

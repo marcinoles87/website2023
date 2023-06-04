@@ -33,7 +33,15 @@
 }
 
 .trip-redirect{
-    color:black
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(18, 18, 87);
+    border-radius: 20px;
+    color:white;
+    text-decoration: none;
+    
 }
 
 .trip-name{
@@ -45,9 +53,6 @@
 .trip-item{
    padding: 10px;
    justify-content: center;
-   
- 
-   
 
 }
 
