@@ -23,7 +23,7 @@
     
 }
 
-.header-btn{
+.header-btn {
     position:absolute;
     left: 47%;
     top:50%;
@@ -36,6 +36,15 @@
     border: 2px solid white;
     
 }
+
+
+a{
+    text-decoration: none;
+    color:white;
+    
+
+}
+
 
 
 .video{
