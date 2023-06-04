@@ -27,7 +27,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
-    height: 70vh;
+    height: 75vh;
     
     
 }
@@ -37,6 +37,7 @@
     font-size: 30px;
     width: 200px;
     height: 35px;
+    margin-bottom: 10px;
     background-color: rgb(18, 18, 87);
     border-radius: 20px;
     color:white;
@@ -68,7 +69,7 @@
 }
 
 .trip-img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .trip-item-one{
