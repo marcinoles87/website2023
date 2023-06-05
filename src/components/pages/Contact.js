@@ -45,17 +45,22 @@ function Contact() {
         </div>
       
 
-      <div className='contact-footer'>
-      <div className='contact-message'>
-        <h1>Have a question :</h1>
-        <input type='text' placeholder='name' ></input>
-        <input type='email'placeholder='email'></input>
-        <input type='message'placeholder='destination trip'></input>
-        <input type='date' placeholder='choose date'></input>
-        <textarea type='text' placeholder='send message'></textarea>
-        <button>Send</button>
+      <div className='contact-footer'> 
+      
+      <form>
+          <div className='contact-message'>
+          
+            <h1>Have a question :</h1>
+            <input type='text' placeholder='name' ></input>
+            <input type='email'placeholder='email'></input>
+            <input type='text'placeholder='destination trip'></input>
+            <input type='date' placeholder='choose date'></input>
+            <textarea type='text' placeholder='send message'></textarea>
+            <button>Send</button>
 
-      </div>
+          </div>
+          
+        </form>
 
       <div className='contact-map'>
         <h1>Site Map</h1>
