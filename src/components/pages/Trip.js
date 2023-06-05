@@ -6,8 +6,12 @@ function Trip() {
 
   const handleOnClick = (e) => {
     console.log('dziala')
-    const img = document.querySelector('img');
+    const img = e.target.alt;
     console.log(e.target.alt)
+    const ig = document.querySelector('img')
+    console.log(ig)
+    ig.classList.add('.modal')
+    
   }
 
   return (
