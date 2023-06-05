@@ -6,6 +6,13 @@ import instagramLogo from '/web frontend/projekty React/website2023/src/img/inst
 
 function Contact() {
 
+  const handleSubmit = () =>{
+    return(
+      <>
+      </>
+    )
+  }
+
   // const colorChange = [
   //   {transform : "translateY(10px)"},
     
@@ -47,7 +54,7 @@ function Contact() {
 
       <div className='contact-footer'> 
       
-      <form>
+      <form type='submit' onClick={handleSubmit}>
           <div className='contact-message'>
           
             <h1>Have a question :</h1>
@@ -59,7 +66,7 @@ function Contact() {
             <button>Send</button>
 
           </div>
-          
+
         </form>
 
       <div className='contact-map'>

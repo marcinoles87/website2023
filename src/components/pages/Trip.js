@@ -4,6 +4,12 @@ import data from '/web frontend/projekty React/website2023/src/data.json'
 
 function Trip() {
 
+  const handleOnClick = (e) => {
+    console.log('dziala')
+    const img = document.querySelector('img');
+    console.log(e.target.alt)
+  }
+
   return (
     <div className='trip-container'>
 
@@ -12,7 +18,7 @@ function Trip() {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img src={item.im} alt={item.tripName}></img>
+              <img src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
               <img src={item.im} alt={item.tripName}></img>
 
               </div>
