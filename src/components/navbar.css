@@ -18,6 +18,11 @@
     
 }
 
+.fa-car-side{
+    color:white;
+    background-color:rgb(8, 4, 65);
+}
+
 .navbar-logo p{
     margin-left: 10px;
 }

@@ -14,7 +14,9 @@ function Trip() {
     mymodal.classList.toggle('myModal')
    
     const result = data.filter( (item) => item.tripName.includes(targetIndex))
-    console.log(result)
+    const imgElement = result[0]
+    console.log(imgElement)
+    
   }
 
   return (

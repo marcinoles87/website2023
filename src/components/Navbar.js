@@ -7,7 +7,7 @@ import './navbar.css'
 
 
 function Navbar() {
-  const [click , setClick] = useState(true)
+  const [click , setClick] = useState(false)
   const [menuOn , setMenu] = useState(false)
 
   
