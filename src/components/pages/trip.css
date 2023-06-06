@@ -21,12 +21,7 @@
    
 }
 
-.myModal{
-  
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-}
+
 
 .fa-star:hover{
     color:yellow;
@@ -52,7 +47,7 @@
     color:white;
 }
 
-.trip-card img{
+.imgStyle{
     object-fit:cover;
    width: 30vw;
    height: 40vh;
@@ -71,5 +66,13 @@
 .trip-info h1 {
     font-size: 60px;
     letter-spacing: 10px;
+}
+
+.myModal{
+    background-color: green;
+    color:blue;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
 }
 

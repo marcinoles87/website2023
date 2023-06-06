@@ -5,13 +5,10 @@ import data from '/web frontend/projekty React/website2023/src/data.json'
 function Trip() {
 
   const handleOnClick = (e) => {
-    console.log('dziala')
-    const img = e.target.alt;
-    console.log(e.target.alt)
     
-    const mymodal = document.getElementById('modal')
-    console.log(mymodal)
-    mymodal.classList.toggle("myModal")
+    const mymodal = document.querySelector('img')
+    // mymodal.classList.add('myModal')
+    mymodal.classList.toggle('myModal')
     
     
   }
@@ -24,8 +21,8 @@ function Trip() {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img id='modal' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
-              <img src={item.im} alt={item.tripName}></img>
+              <img className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
+              <img className='imgStyle' src={item.im} alt={item.tripName}></img>
 
               </div>
 
