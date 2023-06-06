@@ -5,12 +5,16 @@ import data from '/web frontend/projekty React/website2023/src/data.json'
 function Trip() {
 
   const handleOnClick = (e) => {
-    
+    const targetIndex = e.target.alt
+    console.log(targetIndex)
     const mymodal = document.querySelector('img')
+
+    
     // mymodal.classList.add('myModal')
     mymodal.classList.toggle('myModal')
-    
-    
+   
+    const result = data.filter( (item) => item.tripName.includes(targetIndex))
+    console.log(result)
   }
 
   return (
@@ -22,7 +26,7 @@ function Trip() {
             <div className='trip-galllery'>
             
               <img className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
-              <img className='imgStyle' src={item.im} alt={item.tripName}></img>
+              <img className='imgStyle' src={item.im} alt={item.tripName}onClick={handleOnClick}></img>
 
               </div>
 
