@@ -15,7 +15,7 @@ function App() {
     <>
     <Router>
       <Routes>
-      
+      <>
          <Route exact path='/' element={<Navbar></Navbar>} >
          <Route  path='home' element={<Home></Home>} ></Route>
          <Route  path='trips' element={<Trips></Trips>} ></Route>
@@ -24,7 +24,7 @@ function App() {
          <Route  path='contact' element={<Contact></Contact>} ></Route>
          
          </Route>
-         
+         </>
       </Routes>
     </Router>
 
