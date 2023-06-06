@@ -8,9 +8,11 @@ function Trip() {
     console.log('dziala')
     const img = e.target.alt;
     console.log(e.target.alt)
-    const ig = document.querySelector('img')
-    console.log(ig)
-    ig.classList.add('.modal')
+    
+    const mymodal = document.getElementById('modal')
+    console.log(mymodal)
+    mymodal.classList.toggle("myModal")
+    
     
   }
 
@@ -22,7 +24,7 @@ function Trip() {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
+              <img id='modal' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
               <img src={item.im} alt={item.tripName}></img>
 
               </div>
