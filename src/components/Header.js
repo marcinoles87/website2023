@@ -10,7 +10,7 @@ function Header() {
           
            
            {/* <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted /> */}
-           <video src='/video/frontfilm.mp4' type='video/mp4' autoPlay loop muted />
+           <video src='./website2023/video/frontfilm.mp4' type='video/mp4' autoPlay loop muted />
            
            
            <h1> ADVENTURE START NOW...</h1>
