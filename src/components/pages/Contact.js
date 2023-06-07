@@ -48,7 +48,7 @@ function Contact() {
       </div>
 
       <div className='contact-arrow'>
-        <i class="fa-solid fa-arrow-down" id="arrowUp"></i>
+        <i className="fa-solid fa-arrow-down" id="arrowUp"></i>
         </div>
       
 
