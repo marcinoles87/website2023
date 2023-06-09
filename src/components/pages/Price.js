@@ -1,12 +1,16 @@
 import React from 'react'
 import './price.css'
 
-function Price({btnClick}) {
+function Price({handlebtnClick , btnClick}) {
 
   const handleOnClick = () => {
-    console.log(btnClick)
-    btnClick = !btnClick
+    
+    handlebtnClick(
+      !btnClick
+    )
   }
+
+  
   return (
 
     
@@ -51,6 +55,8 @@ function Price({btnClick}) {
            </ul>
           </div>
             {btnClick ? <div className='price-card-info'>Super Cena</div> : ''}
+
+            
       </div>
   )
 }
