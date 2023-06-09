@@ -65,7 +65,8 @@
     left: 0;
     width: 100vw;
     height: 50vh;
-    background-color: rgb(35, 37, 67);
+    justify-content: center;
+    background-color: rgb(37, 41, 71);
     text-align: center;
 }
 
