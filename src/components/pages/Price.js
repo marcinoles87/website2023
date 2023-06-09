@@ -1,7 +1,12 @@
 import React from 'react'
 import './price.css'
 
-function Price() {
+function Price({btnClick}) {
+
+  const handleOnClick = () => {
+    console.log(btnClick)
+    btnClick = !btnClick
+  }
   return (
 
     
@@ -17,7 +22,7 @@ function Price() {
                 <li className='price-list-item'>personal driver</li>
                 <li className='price-list-item'>best price</li>
                 <li className='price-list-item'>a lot of fun</li>
-                <button className='price-btn'>100E</button>
+                <button className='price-btn' onClick={handleOnClick}>100E</button>
            </ul>
           
         </div>
@@ -45,7 +50,7 @@ function Price() {
                 <button className='price-btn'>100E</button>
            </ul>
           </div>
-            {btnClick ? <div className='price-card-info'></div> : ''}
+            {btnClick ? <div className='price-card-info'>Super Cena</div> : ''}
       </div>
   )
 }

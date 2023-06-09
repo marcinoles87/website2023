@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css';
 import Navbar from './components/Navbar';
 // import Header from './components/Header';
@@ -12,6 +12,7 @@ import Home from './components/pages/Home';
 
 function App() {
 
+  const [btnClick , handlebtnClick] = useState(false)
  
   return (
     <>
@@ -23,7 +24,7 @@ function App() {
             <Route  path='home' element={<Home></Home>} ></Route>
             <Route  path='trips' element={<Trips></Trips>} ></Route>
             <Route   path='trip' element={<Trip></Trip>} ></Route>
-            <Route  path='price' element={<Price></Price>} ></Route>
+            <Route  path='price' element={<Price btnClick={btnClick}></Price>} ></Route>
             <Route  path='contact' element={<Contact></Contact>} ></Route>
          
          </Route>
