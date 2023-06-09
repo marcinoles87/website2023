@@ -45,6 +45,7 @@ function Price() {
                 <button className='price-btn'>100E</button>
            </ul>
           </div>
+            {btnClick ? <div className='price-card-info'></div> : ''}
       </div>
   )
 }
