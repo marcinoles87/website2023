@@ -13,7 +13,7 @@ function Price({handlebtnClick , btnClick}) {
   
   return (
 
-    
+    <>
     <div className='price-container'>
       
      
@@ -54,11 +54,15 @@ function Price({handlebtnClick , btnClick}) {
                 <button className='price-btn'>100E</button>
            </ul>
           </div>
-            {btnClick ? <div className='price-card-info'>Super Cena</div> : ''}
+            
 
             
-      </div>
+      </div> 
+      
+      {btnClick ? <div className='price-card-info'>Super Cena</div> : ''}
+       </>
   )
+
 }
 
 export default Price
