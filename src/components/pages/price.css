@@ -61,7 +61,11 @@
 .price-card-info{
     display: flex;
     position: absolute;
-    top:80vh;
+    top:90vh;
     left: 0;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(35, 37, 67);
+    text-align: center;
 }
 

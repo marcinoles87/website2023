@@ -1,5 +1,6 @@
 import React from 'react'
 import './price.css'
+import InfoPrice from './InfoPrice.js'
 
 function Price({handlebtnClick , btnClick}) {
 
@@ -59,7 +60,7 @@ function Price({handlebtnClick , btnClick}) {
             
       </div> 
       
-      {btnClick ? <div className='price-card-info'>Super Cena</div> : ''}
+      {btnClick ? <div className='price-card-info'><InfoPrice></InfoPrice></div> : ''}
        </>
   )
 
