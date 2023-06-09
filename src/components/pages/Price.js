@@ -11,7 +11,7 @@ function Price() {
 
         <div className='price-person'>
           <h1>Price per person</h1>
-            <ul className='price-list'>Per Persone
+            <ul className='price-list'>
 
                 <li className='price-list-item'>individual site</li>
                 <li className='price-list-item'>personal driver</li>
@@ -24,7 +24,7 @@ function Price() {
 
         <div className='price-group'>
           <h1>Price group</h1>
-          <ul className='price-list'>Per Persone
+          <ul className='price-list'>
 
                 <li className='price-list-item'>individual site</li>
                 <li className='price-list-item'>personal driver</li>
@@ -36,7 +36,7 @@ function Price() {
 
           <div className='price-individual'>
             <h1>Price individual trip</h1>
-            <ul className='price-list'>Per Persone
+            <ul className='price-list'>
 
                 <li className='price-list-item'>individual site</li>
                 <li className='price-list-item'>personal driver</li>
