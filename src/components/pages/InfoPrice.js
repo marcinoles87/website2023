@@ -3,7 +3,7 @@ import './infoprice.css'
 
 function InfoPrice() {
 
-    const code = Math.random()*100
+    const code = Math.floor(Math.random()*1000)
   return (
     <div className='infor-price-container'>InfoPrice
         <h1> Super time spend with friend and family</h1>

@@ -13,9 +13,12 @@ function Contact() {
     const email = document.querySelector('.email').value;
     const trip = document.querySelector('.trip').value;
     const date = document.querySelector('.date').value;
-    console.log(name)
+    
+    if(name.length < 1){
+     alert('name to short')
+    }
 
-    alert(`your actual message : ${name} `)
+    alert(`your actual message : name ${name} email:  ${email} ${trip}`)
   
   }
 
