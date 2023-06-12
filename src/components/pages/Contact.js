@@ -9,11 +9,13 @@ function Contact() {
   const handleSubmit = (e) =>{
     e.preventDefault()
 
-    const name = document.getElementsByClassName('name');
-    
-    
-    
-    
+    const name = document.querySelector('.name').value;
+    const email = document.querySelector('.email').value;
+    const trip = document.querySelector('.trip').value;
+    const date = document.querySelector('.date').value;
+    console.log(name)
+
+    alert(`your actual message : ${name} `)
   
   }
 
