@@ -7,6 +7,9 @@ import instagramLogo from '/web frontend/projekty React/website2023/src/img/inst
 function Contact() {
 
   const handleSubmit = () =>{
+
+    const name = document.getElementsByClassName('name').target.value
+    alert(name)
     return(
       <>
       </>
@@ -58,11 +61,11 @@ function Contact() {
           <div className='contact-message'>
           
             <h1>Have a question :</h1>
-            <input type='text' placeholder='name' ></input>
-            <input type='email'placeholder='email'></input>
-            <input type='text'placeholder='destination trip'></input>
-            <input type='date' placeholder='choose date'></input>
-            <textarea type='text' placeholder='send message'></textarea>
+            <input type='text' placeholder='name' className='name' ></input>
+            <input type='email'placeholder='email' className='email'></input>
+            <input type='text'placeholder='destination trip' className='trip'></input>
+            <input type='date' placeholder='choose date' className='date'></input>
+            <textarea type='text' placeholder='send message' className='message'></textarea>
             <button>Send</button>
 
           </div>
