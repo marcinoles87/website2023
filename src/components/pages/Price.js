@@ -40,7 +40,7 @@ function Price({handlebtnClick , btnClick}) {
                 <li className='price-list-item'>personal driver</li>
                 <li className='price-list-item'>best price</li>
                 <li className='price-list-item'>a lot of fun</li>
-                <button className='price-btn'>100E</button>
+                <button className='price-btn' onClick={handleOnClick}>100E</button>
            </ul>
           </div>
 
@@ -52,7 +52,7 @@ function Price({handlebtnClick , btnClick}) {
                 <li className='price-list-item'>personal driver</li>
                 <li className='price-list-item'>best price</li>
                 <li className='price-list-item'>a lot of fun</li>
-                <button className='price-btn'>100E</button>
+                <button className='price-btn' onClick={handleOnClick}>100E</button>
            </ul>
           </div>
             
