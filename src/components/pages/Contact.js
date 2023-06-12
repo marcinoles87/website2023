@@ -9,16 +9,16 @@ function Contact() {
   const handleSubmit = (e) =>{
     e.preventDefault()
 
-    const name = document.querySelector('.name').value;
-    const email = document.querySelector('.email').value;
-    const trip = document.querySelector('.trip').value;
-    const date = document.querySelector('.date').value;
+    const name = document.querySelector('.name').value.toUpperCase();
+    const email = document.querySelector('.email').value.toUpperCase();
+    const trip = document.querySelector('.trip').value.toUpperCase();
+    const date = document.querySelector('.date').value.toUpperCase();
     
     if(name.length < 1){
      alert('name to short')
     }
 
-    alert(`your actual message : name ${name} email:  ${email} ${trip}`)
+    alert(`your actual message : name: ${name} email:  ${email} , trip : ${trip} , date: ${date}`)
   
   }
 
