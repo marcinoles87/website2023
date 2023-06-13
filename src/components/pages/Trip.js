@@ -9,15 +9,10 @@ function Trip( {showImg , setShowImg}) {
     const targetIndex = e.target
     
     console.log(targetIndex)
-     
-    // targetIndex.classList.add('show')
     targetIndex.classList.toggle('show')
 
    
-   
-    // const result = data.filter( (item) => item.tripName.includes(targetIndex))
-    // const imgElement = result[0]
-    // console.log(imgElement)
+ 
   }
 
   return (
@@ -28,7 +23,7 @@ function Trip( {showImg , setShowImg}) {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img index={index} key={index} className={`imgStyle ${showImg ? "show" : " " }`} src={item.im} alt={item.tripName} onClick={ () => setShowImg(!showImg)}></img>
+              <img index={index} key={index} className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
               <img className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
 
               </div>
