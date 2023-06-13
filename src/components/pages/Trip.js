@@ -16,11 +16,7 @@ function Trip( {showImg , setShowImg}) {
     // const result = data.filter( (item) => item.tripName.includes(targetIndex))
     // const imgElement = result[0]
     // console.log(imgElement)
-    console.log(showImg)
-
-    setShowImg( (prev) => {
-      showImg(!prev)
-    })
+   
     
   }
 
@@ -32,7 +28,7 @@ function Trip( {showImg , setShowImg}) {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img className={`imgStyle ${showImg ? "show" : " " }`} src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
+              <img className={`imgStyle ${showImg ? "show" : " " }`} src={item.im} alt={item.tripName} onClick={ () => setShowImg(!showImg)}></img>
               <img className='imgStyle' src={item.im} alt={item.tripName}onClick={handleOnClick}></img>
 
               </div>
