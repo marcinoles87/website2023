@@ -7,11 +7,13 @@ function Trip( {showImg , setShowImg}) {
 
   const handleOnClick = (e) => {
     const targetIndex = e.target
-    const imgs = targetIndex.src
-    console.log(imgs)
+    
+    console.log(targetIndex)
      
-    targetIndex.classList.add('myModal')
-    targetIndex.classList.toggle('myModal')
+    // targetIndex.classList.add('show')
+    targetIndex.classList.toggle('show')
+
+   
    
     // const result = data.filter( (item) => item.tripName.includes(targetIndex))
     // const imgElement = result[0]
