@@ -2,20 +2,25 @@ import React from 'react'
 import './trip.css'
 import data from '/web frontend/projekty React/website2023/src/data.json'
 
-function Trip( {showImg}) {
+function Trip( {showImg , setShowImg}) {
 
   const handleOnClick = (e) => {
-    const targetIndex = e.target.alt
-    console.log(targetIndex)
-    const mymodal = document.querySelector('img')
+    // const targetIndex = e.target.alt
+    // console.log(targetIndex)
+    // const mymodal = document.querySelector('img')
 
-    
+     
     // mymodal.classList.add('myModal')
-    mymodal.classList.toggle('myModal')
+    // mymodal.classList.toggle('myModal')
    
-    const result = data.filter( (item) => item.tripName.includes(targetIndex))
-    const imgElement = result[0]
-    console.log(imgElement)
+    // const result = data.filter( (item) => item.tripName.includes(targetIndex))
+    // const imgElement = result[0]
+    // console.log(imgElement)
+    console.log(showImg)
+
+    setShowImg( (prev) => {
+      showImg(!prev)
+    })
     
   }
 
@@ -27,7 +32,7 @@ function Trip( {showImg}) {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img className={`imgStyle ${showImg} ? "show" : ""`} src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
+              <img className={`imgStyle ${showImg ? "show" : " " }`} src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
               <img className='imgStyle' src={item.im} alt={item.tripName}onClick={handleOnClick}></img>
 
               </div>
