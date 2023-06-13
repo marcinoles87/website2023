@@ -4,17 +4,11 @@ import data from '/web frontend/projekty React/website2023/src/data.json'
 
 function Trip( {showImg , setShowImg}) {
 
-  let index = Math.random()*3
 
   const handleOnClick = (e) => {
     const targetIndex = e.target
     const imgs = targetIndex.src
     console.log(imgs)
-
-    
-
-  
-
      
     // mymodal.classList.add('myModal')
     // mymodal.classList.toggle('myModal')
@@ -35,7 +29,7 @@ function Trip( {showImg , setShowImg}) {
             <div className='trip-galllery'>
             
               <img index={index} key={index} className={`imgStyle ${showImg ? "show" : " " }`} src={item.im} alt={item.tripName} onClick={ () => setShowImg(!showImg)}></img>
-              <img className='imgStyle' src={item.im} alt={item.tripName}onClick={handleOnClick}></img>
+              <img className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
 
               </div>
 

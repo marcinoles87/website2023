@@ -12,6 +12,7 @@
         text-align: center;
        
     }
+
     
 
         .contact-link{
@@ -51,12 +52,14 @@
             width: 35vw;
             margin: 10px 0;
             line-height: 30px;
+            font-size: 30px;
         }
 
         .contact-message textarea{
             width: 35vw;
             height: 150px;
             margin: 10px 0;
+            font-size: 30px;
         }
 
         .contact-message button{
