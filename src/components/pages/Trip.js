@@ -2,7 +2,7 @@ import React from 'react'
 import './trip.css'
 import data from '/web frontend/projekty React/website2023/src/data.json'
 
-function Trip() {
+function Trip( {showImg}) {
 
   const handleOnClick = (e) => {
     const targetIndex = e.target.alt
@@ -27,7 +27,7 @@ function Trip() {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
+              <img className={`imgStyle ${showImg} ? "show" : ""`} src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
               <img className='imgStyle' src={item.im} alt={item.tripName}onClick={handleOnClick}></img>
 
               </div>
