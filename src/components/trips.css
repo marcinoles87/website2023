@@ -116,3 +116,13 @@
     background-color: rgba(255, 255, 255, 0.2);
     color:black;
 }
+
+@media(width < 800px){
+    .trips-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
