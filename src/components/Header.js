@@ -4,12 +4,18 @@ import './header.css'
 
 
 function Header() {
+  const timer = false
+
+  if(timer){
+    return 'video loading'
+  }
   return (
     <div className='header-container'>
         <div className='header-hero'>
           
-           
+          
            {/* <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted /> */}
+           
            <video src='./website2023/video/frontfilm.mp4' type='video/mp4' autoPlay loop muted />
            
            

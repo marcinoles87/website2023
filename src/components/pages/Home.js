@@ -4,6 +4,7 @@ import Header from '../Header.js'
 function Home() {
   return (
     <div>
+      
       <Header></Header>
     </div>
   )

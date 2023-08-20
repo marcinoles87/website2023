@@ -23,13 +23,13 @@ function App() {
     
          <Route exact path='*' element={<Navbar></Navbar>} >
 
-            <Route  path='home' element={<Home></Home>} ></Route>
+            <Route exact  path='home' element={<Home></Home>} ></Route>
             <Route  path='trips' element={<Trips></Trips>} ></Route>
             <Route   path='trip' element={<Trip showImg={showImg} setShowImg={setShowImg}></Trip>} ></Route>
             <Route  path='price' element={<Price handlebtnClick={handlebtnClick} btnClick={btnClick}></Price>} ></Route>
             <Route  path='contact' element={<Contact></Contact>} ></Route>
-         
          </Route>
+        
          
       </Routes>
     </Router>
