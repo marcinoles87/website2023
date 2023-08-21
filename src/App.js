@@ -28,8 +28,9 @@ function App() {
             <Route   path='trip' element={<Trip showImg={showImg} setShowImg={setShowImg}></Trip>} ></Route>
             <Route  path='price' element={<Price handlebtnClick={handlebtnClick} btnClick={btnClick}></Price>} ></Route>
             <Route  path='contact' element={<Contact></Contact>} ></Route>
+            </Route>
          
-         </Route>
+        
          
       </Routes>
     </Router>

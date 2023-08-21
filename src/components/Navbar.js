@@ -3,6 +3,7 @@ import {Link , Outlet} from 'react-router-dom'
 
 
 import './navbar.css'
+import Header from './Header'
 
 
 
@@ -39,6 +40,7 @@ function Navbar() {
         <Link to="/price" className="navbar-item"> Price</Link>
         <Link to="/contact" className="navbar-item"> Contact</Link>
         
+        
       </div>
 
       : ""
@@ -47,8 +49,11 @@ function Navbar() {
 
 <Outlet />
 
+<Header></Header>
          
     </nav>
+
+    
 
    
     
