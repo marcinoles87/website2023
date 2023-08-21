@@ -6,9 +6,11 @@ import './gallery.css'
 function Gallery() {
   return (
     <div className='gallery-container'>
-    <img src={im1}></img>
-    <img src={im1}></img>
-    <img src={im1}></img>
+      <div className='gallery-grid'>
+              <img src={im1}></img>
+             
+      </div>
+    
     <img src={im1}></img>
     <img src={im1}></img>
     <img src={im1}></img>
