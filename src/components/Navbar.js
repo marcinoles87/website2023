@@ -9,7 +9,7 @@ import Header from './Header'
 
 function Navbar() {
   const [click , setClick] = useState(false)
-  const [menuOn , setMenu] = useState(false)
+  const [menuOn , setMenu] = useState(true)
 
   
     if(window.innerWidth < 400){
@@ -39,6 +39,7 @@ function Navbar() {
         <Link to="/trips" className="navbar-item"> Trips</Link>
         <Link to="/price" className="navbar-item"> Price</Link>
         <Link to="/contact" className="navbar-item"> Contact</Link>
+        <Link to="/gallery" className="navbar-item"> Gallery</Link>
         
         
       </div>
@@ -49,7 +50,7 @@ function Navbar() {
 
 <Outlet />
 
-<Header></Header>
+
          
     </nav>
 
