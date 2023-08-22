@@ -4,25 +4,34 @@
     flex-direction: row;
     flex-wrap: wrap;
     position: absolute;
-    top:100px;
+    justify-content: center;
+    top:70px;
     left: 0;
-    background-color: beige;
+    background-color: rgb(245, 245, 239);
 }
 
 img{
+    object-fit: fill;
     padding: 10px;
     width: 30vw;
-    height: 40vh;
+    height: 45vh;
 }
 
 .gallery-grid{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 70vh;
     height: 100vh;
 }
 
-.gallery-grid img{
+.gallery-row img{
     width: 50vw;
-    height: 90vh;
+    height: 90%;
+}
+
+.gallery-column{
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    height: 100vh;
 }
