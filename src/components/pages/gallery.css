@@ -11,7 +11,7 @@
 }
 
 img{
-    object-fit: fill;
+    /* object-fit: fill; */
     padding: 10px;
     width: 30vw;
     height: 45vh;
@@ -26,7 +26,7 @@ img{
 
 .gallery-row img{
     width: 50vw;
-    height: 90%;
+    height: 90vh;
 }
 
 .gallery-column{
