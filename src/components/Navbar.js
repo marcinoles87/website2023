@@ -8,7 +8,7 @@ import Header from './Header'
 
 
 function Navbar() {
-  const [click , setClick] = useState(false)
+  const [click , setClick] = useState(true)
   const [menuOn , setMenu] = useState(true)
 
   
