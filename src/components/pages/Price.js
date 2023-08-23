@@ -7,7 +7,10 @@ function Price() {
 
   return (
     <>
+    <div className='price-container'>
       <Table></Table>
+    </div>
+      
     </>
   
 
