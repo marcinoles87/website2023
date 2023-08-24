@@ -26,12 +26,12 @@ const rows = [
 export default function BasicTable() {
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table sx={{ minWidth: 650 }} aria-label="simple table" size='small'>
         <TableHead>
           <TableRow>
             <TableCell>Trip name</TableCell>
-            <TableCell align="right">Trip Time</TableCell>
-            <TableCell align="right">Price / per Persone</TableCell>
+            <TableCell>Trip Time</TableCell>
+            <TableCell>Price / per Persone</TableCell>
            
           </TableRow>
         </TableHead>
