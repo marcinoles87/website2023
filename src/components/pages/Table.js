@@ -19,6 +19,7 @@ const rows = [
   createData('Auschwitz', '2h' , 200),
   createData('Zakopane', '2h' , 200),
   createData('Energylandia', '2h' , 200),
+  createData('Cracow', '2h' , 200),
   
 ];
 
@@ -42,6 +43,13 @@ export default function BasicTable() {
             >
               <TableCell component="th" scope="row">
                 {row.name}
+              </TableCell>
+              <TableCell component="th" scope="row">
+                {row.time}
+              </TableCell>
+
+              <TableCell component="th" scope="row">
+                {row.price}
               </TableCell>
               {/* <TableCell align="right">{row.price}</TableCell> */}
             
