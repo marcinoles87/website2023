@@ -6,6 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import {shadows , palette} from '@mui/system'
 
 import './table.css'
 
@@ -33,7 +34,7 @@ const rows = [
 export default function BasicTable() {
   return (
     <TableContainer component={Paper}><h1>Info about trip prices</h1>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table" size='small'>
+      <Table sx={{ minWidth: 650 , boxShadow: 3 , bgcolor: 'primary.main'} } aria-label="simple table" size='small'>
         <TableHead>
           <TableRow>
             <TableCell><h1>Destination</h1></TableCell>
@@ -46,7 +47,7 @@ export default function BasicTable() {
           {rows.map((row) => (
             <TableRow
               key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+              sx={{ '&:last-child td, &:last-child th': { border: 0 } } }
             >
               <TableCell component="th" scope="row"> {row.name}</TableCell>
               <TableCell component="th" scope="row">{row.time} </TableCell>
