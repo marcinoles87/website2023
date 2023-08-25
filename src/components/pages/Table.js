@@ -34,7 +34,7 @@ const rows = [
 export default function BasicTable() {
   return (
     <TableContainer component={Paper}><h1>Info about trip prices</h1>
-      <Table sx={{ minWidth: 650 , boxShadow: 3 , bgcolor: 'primary.main'} } aria-label="simple table" size='small'>
+      <Table sx={{ minWidth: 650 , bgcolor: 'primary.main'} } aria-label="simple table" size='small'>
         <TableHead>
           <TableRow>
             <TableCell><h1>Destination</h1></TableCell>
