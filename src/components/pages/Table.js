@@ -23,9 +23,7 @@ const rows = [
   createData('Zakopane', '2h' , 200),
   createData('Energylandia', '2h' , 200),
   createData('Cracow', '2h' , 200),
-  createData('Cracow', '2h' , 200),
-  createData('Cracow', '2h' , 200),
-  createData('Cracow', '2h' , 200),
+ 
 
   
 ];
@@ -34,12 +32,12 @@ const rows = [
 export default function BasicTable() {
   return (
     <TableContainer component={Paper}><h1>Info about trip prices</h1>
-      <Table sx={{ minWidth: 650 , bgcolor: 'primary.main'} } aria-label="simple table" size='small'>
+      <Table sx={{ minWidth: 650 , bgcolor: 'primary.main' , fontSize:40} } aria-label="simple table" size='small'>
         <TableHead>
           <TableRow>
-            <TableCell><h1>Destination</h1></TableCell>
-            <TableCell><h1>Time</h1></TableCell>
-            <TableCell><h1>Price for 1 person</h1></TableCell>
+            <TableCell sx={{fontSize:30 ,}}><h1>Destination</h1></TableCell>
+            <TableCell  sx={{fontSize:30 ,}}><h1>Time</h1></TableCell>
+            <TableCell  sx={{fontSize:30 ,}}><h1>Price for 1 person</h1></TableCell>
            
           </TableRow>
         </TableHead>
@@ -49,9 +47,9 @@ export default function BasicTable() {
               key={row.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } } }
             >
-              <TableCell component="th" scope="row"> {row.name}</TableCell>
-              <TableCell component="th" scope="row">{row.time} </TableCell>
-              <TableCell component="th" scope="row"> {row.price}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.name}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.price}</TableCell>
     
             </TableRow>
 
