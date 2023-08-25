@@ -7,6 +7,8 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
+import './table.css'
+
 function createData(
   name: string,
   time: string,
@@ -67,47 +69,14 @@ export default function BasicTable() {
           ))}
 
         
-        </TableBody>
-      </Table>
-
-      <Table sx={{ minWidth: 650 }} aria-label="simple table" size='small'>
-        <TableHead> 
-          <TableRow>
-            <TableCell><h1>Destination</h1></TableCell>
-            <TableCell><h1>Time</h1></TableCell>
-            <TableCell><h1>Price for 1 person</h1></TableCell>
-           
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow
-              key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-            >
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
-              <TableCell component="th" scope="row">
-                {row.time}
-              </TableCell>
-
-              <TableCell component="th" scope="row">
-                {row.price}
-              </TableCell>
-              {/* <TableCell align="right">{row.price}</TableCell> */}
-            
-            
-            </TableRow>
-
-            
-
-            
-          ))}
-
         
         </TableBody>
+        
+        
       </Table>
+
+
+
    
 
 
