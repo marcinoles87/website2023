@@ -31,9 +31,9 @@ const rows = [
 
 export default function BasicTable() {
   return (
-    <TableContainer component={Paper}><h1>Info about trip prices</h1>
+    <TableContainer  component={Paper}><h1>Info about trip prices</h1>
       <Table sx={{ minWidth: 650 , bgcolor: 'primary.main' , fontSize:40} } aria-label="simple table" size='small'>
-        <TableHead>
+        <TableHead sx={{innerHeight:100}}>
           <TableRow>
             <TableCell sx={{fontSize:30 ,}}><h1>Destination</h1></TableCell>
             <TableCell  sx={{fontSize:30 ,}}><h1>Time</h1></TableCell>
@@ -41,11 +41,12 @@ export default function BasicTable() {
            
           </TableRow>
         </TableHead>
+         <h1>Single Trip / for 1 person</h1>
         <TableBody>
           {rows.map((row) => (
             <TableRow
               key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } } }
+              sx={{ '&:last-child td, &:last-child th': { border: 0 }  } }
             >
               <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.name}</TableCell>
               <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
@@ -55,6 +56,39 @@ export default function BasicTable() {
 
             
           ))}
+
+          <h1>Group Price</h1>
+
+          {rows.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ '&:last-child td, &:last-child th': { border: 0 }  } }
+            >
+              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.name}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.price}</TableCell>
+    
+            </TableRow>
+
+            
+          ))}
+
+            <h1>Shared trip / MultiTrip / Day</h1>
+
+            {rows.map((row) => (
+            <TableRow
+              key={row.name}
+              sx={{ '&:last-child td, &:last-child th': { border: 0 }  } }
+            >
+              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.name}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.price}</TableCell>
+    
+            </TableRow>
+
+            
+          ))}
+
 
         </TableBody>
       </Table>
