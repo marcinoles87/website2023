@@ -29,13 +29,14 @@ const rows = [
 ];
 
 
+
 export default function BasicTable() {
   return (
     <TableContainer  component={Paper}><h1>Info about trip prices</h1>
       <Table sx={{ minWidth: 650 , bgcolor: 'primary.main' , fontSize:40} } aria-label="simple table" size='small'>
         <TableHead sx={{innerHeight:100}}>
           <TableRow>
-            <TableCell sx={{fontSize:30 ,}}><h1>Destination</h1></TableCell>
+            <TableCell  sx={{fontSize:30 }}><h1>Destination</h1></TableCell>
             <TableCell  sx={{fontSize:30 ,}}><h1>Time</h1></TableCell>
             <TableCell  sx={{fontSize:30 ,}}><h1>Price for 1 person</h1></TableCell>
            
