@@ -8,14 +8,16 @@ import Header from './Header'
 
 
 function Navbar() {
-  const [click , setClick] = useState(true)
-  const [menuOn , setMenu] = useState(true)
+  let [click , setClick] = useState(true)
+  let [menuOn , setMenu] = useState(true)
 
   
-    if(window.innerWidth < 400){
-    setMenu()
+  
+    if(document.onwheel > 400){
+    // setMenu(menuOn = false)
+    // setClick(!click)
     }
-    console.log(menuOn)
+    console.log(window.innerWidth)
   
 
   const handleClick = () =>  setClick(!click)
@@ -29,7 +31,7 @@ function Navbar() {
       </div>
 
       <div className='navbar-menu' onClick={handleClick}>
-        <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
+        <i className={click ? 'none' : 'fas fa-bars'}/>
       </div>
 
       {click ? 
