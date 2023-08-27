@@ -11,16 +11,16 @@ function Navbar() {
   let [click , setClick] = useState(true)
   let [menuOn , setMenu] = useState(true)
 
+  const wnd = document.querySelector('window')
   
-  
-    if(document.onwheel > 400){
+    if(wnd.scrollHeight > 4){
     // setMenu(menuOn = false)
-    // setClick(!click)
+    setClick(!click)
     }
-    console.log(window.innerWidth)
+    console.log(click)
   
 
-  const handleClick = () =>  setClick(!click)
+  // const handleClick = () =>  setClick(!click)
   
   return (
     <nav className='navbar'>
@@ -30,7 +30,7 @@ function Navbar() {
         <p> Viptour2023</p>
       </div>
 
-      <div className='navbar-menu' onClick={handleClick}>
+      <div className='navbar-menu' >
         <i className={click ? 'none' : 'fas fa-bars'}/>
       </div>
 
