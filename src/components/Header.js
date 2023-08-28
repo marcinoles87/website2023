@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
 import CountUp from 'react-countup'
 
 
 function Header() {
   const timer = false
+
+  let [cnt , setCnt] = useState(false)
+
+  const handleCountUp = () => {
+    console.log(window.screenTop)
+    if(window.screenTop > 1000){
+      setCnt(cnt=true)
+    }
+  }
+
+  window.onscroll = handleCountUp
 
   if(timer){
     return 'video loading'
@@ -41,13 +52,13 @@ function Header() {
                   <div className='header-plus-item'>
                   <i className="fa-solid fa-user"></i>
                     <h3>Trip drive</h3>
-                    <CountUp 
+                    {cnt ? <CountUp 
                 start={0} 
                 end={243}
                 duration={2.5}
                 separator=' , '>
 
-            </CountUp> 
+            </CountUp>  : ''}
                   </div>
 
                   <div className='header-plus-item'>

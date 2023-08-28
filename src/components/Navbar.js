@@ -16,7 +16,7 @@ function Navbar() {
   
 
   const handleOnChange =  () => {
-    console.log(window.innerWidth)
+    
     if(window.innerWidth < 400){
       setClick(!click)
     }else(
