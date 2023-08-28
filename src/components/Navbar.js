@@ -13,10 +13,13 @@ function Navbar() {
 
   // const wnd = document.querySelector('window')
   
-   
-  
+   window.onresize = handleOnChange
 
+  
+  const handleOnChange = () => setClick(!click)
   const handleClick = () =>  setClick(!click)
+
+  console.log(click)
   
   return (
     <nav className='navbar'>
