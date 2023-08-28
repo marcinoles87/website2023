@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-
+import CountUp from 'react-countup'
 
 
 function Header() {
@@ -40,20 +40,38 @@ function Header() {
               <div className='header-plus-row'>
                   <div className='header-plus-item'>
                   <i className="fa-solid fa-user"></i>
-                    <h3>Atraction</h3>
-                    Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
+                    <h3>Trip drive</h3>
+                    <CountUp 
+                start={0} 
+                end={243}
+                duration={2.5}
+                separator=' , '>
+
+            </CountUp> 
                   </div>
 
                   <div className='header-plus-item'>
                   <i className="fa-regular fa-heart"></i>
-                    <h3>Atraction</h3>
-                    Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
+                    <h3>hour with client</h3>
+                    <CountUp 
+                start={0} 
+                end={12583}
+                duration={2.5}
+                separator=' , '>
+
+            </CountUp> 
                   </div>
 
                   <div className='header-plus-item'>
                   <i className="fa-regular fa-handshake"></i>
-                    <h3>Atraction</h3>
-                    Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
+                    <h3>All diffrent place</h3>
+                    <CountUp 
+                start={0} 
+                end={34}
+                duration={2.5}
+                separator=' , '>
+
+            </CountUp>
                   </div>
 
                   <div className='header-plus-item'>
@@ -75,6 +93,10 @@ function Header() {
                   </div>
               </div>
           </div>
+        </div>
+
+        <div className='header-countUp'>
+        
         </div>
 
         <div className='header-information2'>
