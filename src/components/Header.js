@@ -50,7 +50,7 @@ function Header() {
                   <div className='header-plus-item'>
                   <i className="fa-solid fa-user"></i>
                     <h3>Trip drive</h3>
-                    {cnt ? <CountUp 
+                    {cnt ? <CountUp  className='countUp'
                 start={0} 
                 end={243}
                 duration={2.5}
@@ -62,10 +62,10 @@ function Header() {
                   <div className='header-plus-item'>
                   <i className="fa-regular fa-heart"></i>
                     <h3>hour with client</h3>
-                    {cnt ? <CountUp 
+                    {cnt ? <CountUp className='countUp'
                 start={0} 
-                end={243}
-                duration={2.5}
+                end={2430}
+                duration={3.5}
                 separator=' , '>
 
             </CountUp>  : ''}
@@ -75,10 +75,10 @@ function Header() {
                   <div className='header-plus-item'>
                   <i className="fa-regular fa-handshake"></i>
                     <h3>All diffrent place</h3>
-                    {cnt ? <CountUp 
+                    {cnt ? <CountUp className='countUp'
                 start={0} 
                 end={243}
-                duration={2.5}
+                duration={3.5}
                 separator=' , '>
 
             </CountUp>  : ''}
