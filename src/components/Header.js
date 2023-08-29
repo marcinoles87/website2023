@@ -4,22 +4,20 @@ import CountUp from 'react-countup'
 
 
 function Header() {
-  const timer = false
+  
 
   let [cnt , setCnt] = useState(false)
 
   const handleCountUp = () => {
-    console.log(window.screenTop)
-    if(window.screenTop > 1000){
+    console.log(window.scrollY)
+    if(window.scrollY > 980){
       setCnt(cnt=true)
     }
   }
 
   window.onscroll = handleCountUp
 
-  if(timer){
-    return 'video loading'
-  }
+ 
   return (
     <div className='header-container'>
         <div className='header-hero'>
@@ -64,25 +62,27 @@ function Header() {
                   <div className='header-plus-item'>
                   <i className="fa-regular fa-heart"></i>
                     <h3>hour with client</h3>
-                    <CountUp 
+                    {cnt ? <CountUp 
                 start={0} 
-                end={12583}
+                end={243}
                 duration={2.5}
                 separator=' , '>
 
-            </CountUp> 
+            </CountUp>  : ''}
+                    
                   </div>
 
                   <div className='header-plus-item'>
                   <i className="fa-regular fa-handshake"></i>
                     <h3>All diffrent place</h3>
-                    <CountUp 
+                    {cnt ? <CountUp 
                 start={0} 
-                end={34}
+                end={243}
                 duration={2.5}
                 separator=' , '>
 
-            </CountUp>
+            </CountUp>  : ''}
+                  
                   </div>
 
                   <div className='header-plus-item'>
