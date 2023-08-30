@@ -49,9 +49,9 @@ export default function BasicTable() {
               key={row.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 }  } }
             >
-              <TableCell component="th" scope="row" sx={{fontSize:30 }}> {row.name}</TableCell>
-              <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
-              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.price}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}> {row.name}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}>{row.time} </TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}> {row.price}</TableCell>
     
             </TableRow>
 
@@ -65,9 +65,9 @@ export default function BasicTable() {
               key={row.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 }  } }
             >
-              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.name}</TableCell>
-              <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
-              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.price}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}> {row.name}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}>{row.time} </TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}> {row.price}</TableCell>
     
             </TableRow>
 
@@ -81,9 +81,9 @@ export default function BasicTable() {
               key={row.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 }  } }
             >
-              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.name}</TableCell>
-              <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
-              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.price}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}> {row.name}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}>{row.time} </TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 , color:'beige'}}> {row.price}</TableCell>
     
             </TableRow>
 
