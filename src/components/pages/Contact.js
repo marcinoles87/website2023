@@ -14,7 +14,7 @@ function Contact() {
     const trip = document.querySelector('.trip').value.toUpperCase();
     const date = document.querySelector('.date').value.toUpperCase();
     
-    if(name.length < 1){
+    if(name.length < 2){
      alert('name to short')
     }
 
@@ -84,9 +84,9 @@ function Contact() {
         <a href='/home'>Information</a>
         <a href='/trips'>Trip</a>
         <a href='/price'>Price</a>
-        <a href='home'>Facebook</a>
-        <a href='home'>Instagram</a>
-        <a href='home'>TripAdvisor</a>
+        <a href='https://www.auschwitzsaltmine.com'>Facebook</a>
+        <a href='https://www.auschwitzsaltmine.com'>Instagram</a>
+        <a href='https://www.auschwitzsaltmine.com'>TripAdvisor</a>
 
 
       </div>

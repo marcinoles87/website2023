@@ -53,7 +53,7 @@ function Header() {
                     {cnt ? <CountUp  className='countUp'
                 start={0} 
                 end={243}
-                duration={2.5}
+                duration={3.5}
                 separator=' , '>
 
             </CountUp>  : ''}
@@ -78,7 +78,7 @@ function Header() {
                     {cnt ? <CountUp className='countUp'
                 start={0} 
                 end={24}
-                duration={5}
+                duration={3.5}
                 separator=' , '>
 
             </CountUp>  : ''}
