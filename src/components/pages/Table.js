@@ -11,9 +11,9 @@ import {shadows , palette} from '@mui/system'
 import './table.css'
 
 function createData(
-  name: string,
-  time: string,
-  price:number,
+  name,
+  time,
+  price,
 ) {
   return { name, time , price };
 }
@@ -45,11 +45,11 @@ export default function BasicTable() {
          <h1>Single Trip / for 1 person</h1>
         <TableBody>
           {rows.map((row) => (
-            <TableRow
+            <TableRow  className='table-cell'
               key={row.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 }  } }
             >
-              <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.name}</TableCell>
+              <TableCell component="th" scope="row" sx={{fontSize:30 }}> {row.name}</TableCell>
               <TableCell component="th" scope="row" sx={{fontSize:30}}>{row.time} </TableCell>
               <TableCell component="th" scope="row" sx={{fontSize:30}}> {row.price}</TableCell>
     
