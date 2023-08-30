@@ -10,7 +10,7 @@ function Header() {
 
   const handleCountUp = () => {
     console.log(window.scrollY)
-    if(window.scrollY > 980){
+    if(window.scrollY > 1000){
       setCnt(cnt=true)
     }
   }
@@ -77,8 +77,8 @@ function Header() {
                     <h3>All diffrent place</h3>
                     {cnt ? <CountUp className='countUp'
                 start={0} 
-                end={243}
-                duration={3.5}
+                end={24}
+                duration={5}
                 separator=' , '>
 
             </CountUp>  : ''}
