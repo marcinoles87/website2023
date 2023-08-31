@@ -107,7 +107,7 @@ function Header() {
         
         </div>
 
-        <div className='header-information2'>
+        <div className='header-information2' id='info'>
           <div className='header-information2-back'>
           <h2> Important Information</h2>
           </div>

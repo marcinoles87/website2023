@@ -22,23 +22,6 @@ function Contact() {
   
   }
 
-  // const colorChange = [
-  //   {transform : "translateY(10px)"},
-    
-  // ]
-
-  // const myI = () => {
-  //   const arrow = document.getElementById('arrowUp')
-  //   arrow.animate(colorChange,1000 )
-  // }
-
-  // if(window.innerHeight  > 600)
-  // {
-  //   setInterval(myI,1000)
-  //   clearInterval(myI)
-  // }
-  
-  
 
   return(
   <div className='contact-wrapper' id='contact'>
@@ -80,13 +63,13 @@ function Contact() {
 
       <div className='contact-map'>
         <h1>Site Map</h1>
-        <a href='/contact'>Home</a>
-        <a href='/home'>Information</a>
+        <a href='/home'>Home</a>
+        <a href='/home/#info'>Information</a>
         <a href='/trips'>Trip</a>
         <a href='/price'>Price</a>
         <a href='https://www.auschwitzsaltmine.com'>Facebook</a>
         <a href='https://www.auschwitzsaltmine.com'>Instagram</a>
-        <a href='https://www.auschwitzsaltmine.com'>TripAdvisor</a>
+        <a href='https://www.tripadvisor.com/Attraction_Review-g274772-d7734909-Reviews-VIP_TOUR_CRACOW-Krakow_Lesser_Poland_Province_Southern_Poland.html'>TripAdvisor</a>
 
 
       </div>
