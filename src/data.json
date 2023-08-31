@@ -17,7 +17,7 @@
         "name" : "AUSCHWITZ",
         "tripName" : "Auschwitz",
         "im" : "./website2023/img/auschwitz.jpg",
-        "info" : "Krakow is one of the most beautiful cities in Europe. It’s Poland’s second largest city and former capital. What can you see here? The most popular places in Cracow: Wawel - a limestone hill in the center of Krakow upon the Vistula River with a complex of impressive historical monuments of unique historical and artistic values. This extraordinary sanctuary determines the Poles’ identity, is their national and cultural symbol. Wawel used to be the seat of Polish rulers, their necropolis and place where the Polish history took shape. To the north of the old town are Florian’s Gate and the Barbican. These buildings are from the 14th and 15th centuries that made up part of Krakow’s city walls, designed to protect against enemy invaders. Oskar Schindler’s factory – the one that Liam Neeson’s Schindler’s List movie was about – is now a museum open to the public, and provides an interesting glance into life in Krakow during the Second World War. And this is just the beginning of a great tourist adventure!",
+        "info" : "Concentracion and exterminatnion camp Auschwitz - Birkenau was the place of torment of almost 1,5 milion people , mostly Jewish , Polish and Gypsy . This is the place where we bow and pay our respect to all those who were killed by the Nazis. Auschwitz-Birkenau is the symbol of doom and the only concetracion camp on the UNESCO World Heritage list",
         "price" : "20EURO/PERSON",
         "time" : "2h 30min",
         "rating" : "4 star"
@@ -29,7 +29,7 @@
     "name" : "SALTMINE",
     "tripName" : "Wieliczka",
     "im" : "./website2023/img/wieliczka.jpg",
-    "info" : "Krakow is one of the most beautiful cities in Europe. It’s Poland’s second largest city and former capital. What can you see here? The most popular places in Cracow: Wawel - a limestone hill in the center of Krakow upon the Vistula River with a complex of impressive historical monuments of unique historical and artistic values. This extraordinary sanctuary determines the Poles’ identity, is their national and cultural symbol. Wawel used to be the seat of Polish rulers, their necropolis and place where the Polish history took shape. To the north of the old town are Florian’s Gate and the Barbican. These buildings are from the 14th and 15th centuries that made up part of Krakow’s city walls, designed to protect against enemy invaders. Oskar Schindler’s factory – the one that Liam Neeson’s Schindler’s List movie was about – is now a museum open to the public, and provides an interesting glance into life in Krakow during the Second World War. And this is just the beginning of a great tourist adventure!",
+    "info" : "The Wieliczka Salt Mine is one of the oldest salt mines in the world. The oldest shaft, which is currently available to visitors, dates from the 18th century. The mine is one of the region's most popular attractions. It was inscribed on the first UNESCO World Heritage List and it is visited annually by over 2 million tourists. The unique chapels of St. Antoni and Saint. Kinga, shafts, tunnels and even an underground lake are just some of the attractions that await you at the Wieliczka Salt",
     "price" : "20EURO/PERSON",
     "time" : "2h 30min",
     "rating" : "4 star"
@@ -51,7 +51,7 @@
     "name" : "ZAKOPANE",
     "tripName" : "Zakopane",
     "im" : "./website2023/img/zakopane.jpg",
-    "info" :"Krakow is one of the most beautiful cities in Europe. It’s Poland’s second largest city and former capital. What can you see here? The most popular places in Cracow: Wawel - a limestone hill in the center of Krakow upon the Vistula River with a complex of impressive historical monuments of unique historical and artistic values. This extraordinary sanctuary determines the Poles’ identity, is their national and cultural symbol. Wawel used to be the seat of Polish rulers, their necropolis and place where the Polish history took shape. To the north of the old town are Florian’s Gate and the Barbican. These buildings are from the 14th and 15th centuries that made up part of Krakow’s city walls, designed to protect against enemy invaders. Oskar Schindler’s factory – the one that Liam Neeson’s Schindler’s List movie was about – is now a museum open to the public, and provides an interesting glance into life in Krakow during the Second World War. And this is just the beginning of a great tourist adventure!",
+    "info" :"The most attractive summer and winter resort in Polish mountains. In the summer you can spend days walking in the mountains enjoying the breathtaking views. In the summer you won’t be bored thanks to winter activities like skiing or snowboarding. at any time of the year you can walk along the most popular street of the Polish mountains - Krupówki. You can buy souvenirs there, sit in a real highlander's eatery or eat delicious grilled oscypek cheese with cranberry.",
     "price" : "20EURO/PERSON",
     "time" : "2h 30min",
     "rating" : "4 star"
@@ -62,7 +62,7 @@
     "name" : "CZESTOCHOWA",
     "tripName" : "Czestochowa",
     "im" : "./website2023/img/czestochowa.jpg",
-    "info" : "Krakow is one of the most beautiful cities in Europe. It’s Poland’s second largest city and former capital. What can you see here? The most popular places in Cracow: Wawel - a limestone hill in the center of Krakow upon the Vistula River with a complex of impressive historical monuments of unique historical and artistic values. This extraordinary sanctuary determines the Poles’ identity, is their national and cultural symbol. Wawel used to be the seat of Polish rulers, their necropolis and place where the Polish history took shape. To the north of the old town are Florian’s Gate and the Barbican. These buildings are from the 14th and 15th centuries that made up part of Krakow’s city walls, designed to protect against enemy invaders. Oskar Schindler’s factory – the one that Liam Neeson’s Schindler’s List movie was about – is now a museum open to the public, and provides an interesting glance into life in Krakow during the Second World War. And this is just the beginning of a great tourist adventure!",
+    "info" : "Czestochowa lies among the picturesque rocks of the Cracow-Czestochowa Upland, crowned with the ruins of medieval castles. Czestochowa is mainly associated with the Jasna Góra monastery and the icon of the Black Madonna, attributed to many miracles. The sanctuary is known as one of the largest pilgrimage sites in the world, but its impressive architecture also attracts many tourists. The Czestochowa Sanctuary is also an outstanding architectural monument of the 15th century, with later Renaissance and Baroque transformations. The number of pilgrims and tourists coming to the city is 5 million per year.",
     "price" : "20EURO/PERSON",
     "time" : "2h 30min",
     "rating" : "4 star"

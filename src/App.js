@@ -7,7 +7,7 @@ import Contact from './components/pages/Contact';
 import Trip from './components/pages/Trip';
 import Price from './components/pages/Price';
 
-import { BrowserRouter as Router , Route , Routes } from 'react-router-dom';
+import { BrowserRouter as Router , Route , Routes, BrowserRouter } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Gallery from './components/pages/Gallery';
 
@@ -19,7 +19,7 @@ function App() {
  
   return (
     <>
-    <Router>
+    <BrowserRouter>
       <Routes>
     
          <Route  path='*' element={<Navbar></Navbar>} >
@@ -35,7 +35,7 @@ function App() {
         
          
       </Routes>
-    </Router>
+    </BrowserRouter>
 
     
    

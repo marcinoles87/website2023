@@ -4,16 +4,8 @@ import data from '/web frontend/projekty React/website2023/src/data.json'
 
 function Trip( {showImg , setShowImg}) {
 
-
-  const handleOnClick = (e) => {
-    const targetIndex = e.target
-    
-    console.log(targetIndex)
-    targetIndex.classList.toggle('show')
-
-   
+console.log(data)
  
-  }
 
   return (
     <div className='trip-container'>
@@ -23,8 +15,8 @@ function Trip( {showImg , setShowImg}) {
           <div className='trip-card' key={index}>
             <div className='trip-galllery'>
             
-              <img index={index} key={index} className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
-              <img className='imgStyle' src={item.im} alt={item.tripName} onClick={handleOnClick}></img>
+              <img index={index} key={index} className='imgStyle' src={item.im} alt={item.tripName} ></img>
+              <img className='imgStyle' src={item.im} alt={item.tripName} ></img>
 
               </div>
 

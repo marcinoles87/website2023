@@ -9,13 +9,15 @@ function Header() {
   let [cnt , setCnt] = useState(false)
 
   const handleCountUp = () => {
-    console.log(window.scrollY)
+    
     if(window.scrollY > 1000){
       setCnt(cnt=true)
     }
   }
 
   window.onscroll = handleCountUp
+
+  
 
  
   return (

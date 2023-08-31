@@ -20,9 +20,7 @@ import {Link} from 'react-router-dom'
         <div className='trips-list'>
             <div className='trips-card'>
                 {data.map( (item,index) => {
-                  
-                  
-                 
+
                   
                   return(
                     <div className='trip-item' key={index}>
