@@ -21,9 +21,6 @@ function Header() {
   return (
     <div className='header-container'>
         <div className='header-hero'>
-          
-          
-           {/* <video src='/video/front.mp4' type='video/mp4' autoPlay loop muted /> */}
            
            <video src='./website2023/video/frontfilm.mp4' type='video/mp4' autoPlay loop muted />
            
@@ -94,13 +91,13 @@ function Header() {
                   <div className='header-plus-item'>
                   <i className="fa-solid fa-road"></i>
                     <h3>Comfort</h3>
-                    Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
+                    The comfort of our vehicles is exceptional. Width of seats, comfortable armchairs, air conditioning. We take care of every detail in our vehicles so that they meet your expectations to the highest degree
                   </div>
 
                   <div className='header-plus-item'>
                   <i className="fa-solid fa-user"> + 4</i>
                     <h3>Space</h3>
-                    Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
+                    We have seven-seater cars at your disposal. If necessary, we are able to arrange larger cars for a larger group of people
                   </div>
               </div>
           </div>
@@ -113,7 +110,6 @@ function Header() {
         <div className='header-information2'>
           <div className='header-information2-back'>
           <h2> Important Information</h2>
-          <h3> Want some information click to contact</h3>
           </div>
           <p>Are you looking for an interesting place to spend a long weekend or a longer vacation? Many people decide to stay in Krakow. The opportunity to enjoy the charms of the city's vibrant cultural and tourist life combined with the close proximity of many interesting natural attractions make your stay in Krakow a must! What tourist attractions await us in Krakow and Poland? Auschwitz - This place became a symbol of the Holocaust and Nazi crimes against Poles, Roma and Jews. It takes about 3 hours to explore. Strong nerves are also needed to see what atrocities took place in Auschwitz. Wieliczka- The reason why it is worth visiting the Wieliczka Mine is best evidenced by the fact that it was one of the first UNESCO World Cultural and Natural Heritage listed. This place combines centuries-old Polish culture as well as modernity in one. During the journey through the amazing mine rooms we will have the opportunity to discover the history, as well as see many amazing rooms and tunnels and chambers adapted for tourists.</p>
         </div>

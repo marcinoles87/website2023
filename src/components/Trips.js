@@ -6,15 +6,7 @@ import {Link} from 'react-router-dom'
 
  function Trips() {
 
-  // const  handleOnClick = () => {
-    
-  //   window.location.replace('http://localhost:3000/trip');
-  //   console.log('dziala')
-  // }
-      
-    
- 
-  
+
   return (
     <div className='trips-container'>
      
