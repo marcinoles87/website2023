@@ -37,7 +37,7 @@ function Header() {
 
         <div className='header-information'>
           <h1 id='us'> About #Us</h1>
-          <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+          <p>Our company specializes in organizing private and group trips from Krakow to the most interesting places in the south of Poland. We have extensive expertise in the tourism industry. We have all required licenses and certificates. Our drivers are English-speaking. We offer airport transfer and intercity transport. We invite to cooperation individual customers as well as companies, hotels, travel agencies.</p>
         </div>
 
         <div className='header-plus'>
@@ -88,7 +88,7 @@ function Header() {
                   <div className='header-plus-item'>
                   <i className="fa-regular fa-hand-peace"></i>
                     <h3>Friendly</h3>
-                    Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków 
+                    We are a friendly company, each of our clients is treated as a priority. We value the comfort and friendly attitude of our customers.
                   </div>
 
                   <div className='header-plus-item'>
@@ -115,7 +115,7 @@ function Header() {
           <h2> Important Information</h2>
           <h3> Want some information click to contact</h3>
           </div>
-          <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+          <p>Are you looking for an interesting place to spend a long weekend or a longer vacation? Many people decide to stay in Krakow. The opportunity to enjoy the charms of the city's vibrant cultural and tourist life combined with the close proximity of many interesting natural attractions make your stay in Krakow a must! What tourist attractions await us in Krakow and Poland? Auschwitz - This place became a symbol of the Holocaust and Nazi crimes against Poles, Roma and Jews. It takes about 3 hours to explore. Strong nerves are also needed to see what atrocities took place in Auschwitz. Wieliczka- The reason why it is worth visiting the Wieliczka Mine is best evidenced by the fact that it was one of the first UNESCO World Cultural and Natural Heritage listed. This place combines centuries-old Polish culture as well as modernity in one. During the journey through the amazing mine rooms we will have the opportunity to discover the history, as well as see many amazing rooms and tunnels and chambers adapted for tourists.</p>
         </div>
     </div>
 
