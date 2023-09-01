@@ -16,7 +16,7 @@ console.log(data)
             <div className='trip-galllery'>
             
               <img index={index} key={index} className='imgStyle' src={item.im} alt={item.tripName} ></img>
-              <img className='imgStyle' src={item.im} alt={item.tripName} ></img>
+             
 
               </div>
 

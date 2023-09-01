@@ -16,9 +16,9 @@ function Contact() {
     
     if(name.length < 2){
      alert('name to short')
-    }
+    } alert(`your actual message : name: ${name} email:  ${email} , trip : ${trip} , date: ${date}`)
 
-    alert(`your actual message : name: ${name} email:  ${email} , trip : ${trip} , date: ${date}`)
+    window.open('mailto:viptourcracow@com')
   
   }
 
@@ -67,7 +67,7 @@ function Contact() {
         <a href='/home/#info'>Information</a>
         <a href='/trips'>Trip</a>
         <a href='/price'>Price</a>
-        <a href='https://www.auschwitzsaltmine.com'>Facebook</a>
+        <a href='https://www.facebook.com/people/Viptourcracow-CracowAuchswitzWieliczka-Salt-Mine/100041922716636/'>Facebook</a>
         <a href='https://www.auschwitzsaltmine.com'>Instagram</a>
         <a href='https://www.tripadvisor.com/Attraction_Review-g274772-d7734909-Reviews-VIP_TOUR_CRACOW-Krakow_Lesser_Poland_Province_Southern_Poland.html'>TripAdvisor</a>
 

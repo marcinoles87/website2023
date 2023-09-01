@@ -24,7 +24,7 @@ function App() {
     
          <Route  path='*' element={<Navbar></Navbar>} >
 
-            <Route index path='home' element={<Home></Home>} ></Route>
+            <Route index path='*' element={<Home></Home>} ></Route>
             <Route  path='trips' element={<Trips></Trips>} ></Route>
             <Route   path='trip' element={<Trip showImg={showImg} setShowImg={setShowImg}></Trip>} ></Route>
             <Route  path='price' element={<Price handlebtnClick={handlebtnClick} btnClick={btnClick}></Price>} ></Route>

@@ -4,13 +4,16 @@ import im2 from '/web frontend/projekty React/website2023/src/img/hero.jpg'
 import im3 from '/web frontend/projekty React/website2023/src/img/vip1.jpg'
 import im4 from '/web frontend/projekty React/website2023/src/img/vip2.jpg'
 import i4 from '/web frontend/projekty React/website2023/src/img/vip4.jpg'
+import im7 from '/web frontend/projekty React/website2023/src/img/vip7.jpg'
+import im8 from '/web frontend/projekty React/website2023/src/img/vip8.jpg'
+import im6 from '/web frontend/projekty React/website2023/src/img/vip6.jpg'
 import im5 from '/web frontend/projekty React/website2023/src/img/mePhoto.jpg'
 
 import './gallery.css'
 
 function Gallery() {
 
-        const arrayGal = [im1 , im2 , im3 , im4 , i4 , im5]
+        const arrayGal = [im1 , im2 , im3 , im4 , i4 , im5 , im6 , im7 , im8]
         console.log(arrayGal)
         
                const lp =  Math.floor(Math.random()*6)
