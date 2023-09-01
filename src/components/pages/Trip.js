@@ -23,8 +23,6 @@ console.log(data)
               <div className='trip-info'>
               <h1>{item.name}</h1>
               <p>{item.info}</p>
-              <h2>Price : {item.price}</h2>
-              
               <h2>Time : {item.time}</h2>
               <h2>Reating : {item.rating} <i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i></h2>
               </div>
