@@ -12,9 +12,9 @@ function Gallery() {
 
         const arrayGal = [im1 , im2 , im3 , im4 , i4 , im5]
         console.log(arrayGal)
-        const randomGal = () => {
-                Math.random()
-        }
+        
+               const lp =  Math.floor(Math.random()*6)
+        
   return (
     <div className='gallery-container'>
       <div className='gallery-row'>
@@ -38,11 +38,17 @@ function Gallery() {
              
       </div>
     
-    <img src={im1} alt='cracow'></img>
-    <img src={im1} alt='cracow'></img>
-    <img src={im1} alt='cracow'></img>
-    <img src={im1} alt='cracow'></img>
-    <img src={im1} alt='cracow'></img>
+    
+        {arrayGal.map( (item , index) => {
+
+
+                return(
+                        
+                         <img src={item} alt='cracow' key={index}></img>
+                        
+                )
+
+        })}
     
     </div>
   )
