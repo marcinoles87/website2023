@@ -3,11 +3,18 @@ import im1 from '/web frontend/projekty React/website2023/src/img/cracow.jpg'
 import im2 from '/web frontend/projekty React/website2023/src/img/hero.jpg'
 import im3 from '/web frontend/projekty React/website2023/src/img/vip1.jpg'
 import im4 from '/web frontend/projekty React/website2023/src/img/vip2.jpg'
+import i4 from '/web frontend/projekty React/website2023/src/img/vip4.jpg'
 import im5 from '/web frontend/projekty React/website2023/src/img/mePhoto.jpg'
 
 import './gallery.css'
 
 function Gallery() {
+
+        const arrayGal = [im1 , im2 , im3 , im4 , i4 , im5]
+        console.log(arrayGal)
+        const randomGal = () => {
+                Math.random()
+        }
   return (
     <div className='gallery-container'>
       <div className='gallery-row'>
@@ -21,7 +28,7 @@ function Gallery() {
       </div>
 
       <div className='gallery-column'>
-              <img src={im2} alt='cracow'></img>
+              <img src={i4} alt='cracow'></img>
               <img src={im4} alt='cracow'></img>
              
       </div>
