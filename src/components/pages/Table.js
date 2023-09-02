@@ -42,7 +42,15 @@ export default function BasicTable() {
            
           </TableRow>
         </TableHead>
-         <h1>Single Trip / for 1 person</h1>
+
+        <TableHead>
+          <TableRow sx={ {height:100}}>
+            <TableCell sx={{fontSize:50 , color:'white' , fontWeight:600}}>Single Trip</TableCell>
+           
+          </TableRow>
+        </TableHead>
+         
+
         <TableBody>
           {rows.map((row) => (
             <TableRow  className='table-cell'
@@ -58,7 +66,12 @@ export default function BasicTable() {
             
           ))}
 
-          <h1>Group Price</h1>
+          <TableHead>
+          <TableRow sx={ {height:100}}>
+            <TableCell sx={{fontSize:50 , color:'white' , fontWeight:600}}>Group Trip</TableCell>
+           
+          </TableRow>
+        </TableHead>
 
           {rows.map((row) => (
             <TableRow
@@ -74,7 +87,14 @@ export default function BasicTable() {
             
           ))}
 
-            <h1>Shared trip / MultiTrip / Day</h1>
+          <TableHead>
+                    <TableRow sx={ {height:100}}>
+
+                      <TableCell sx={{fontSize:50 , color:'white' , fontWeight:600}}>Shared Group MultiTrip</TableCell>
+                    
+                    </TableRow>
+          </TableHead>
+
 
             {rows.map((row) => (
             <TableRow
